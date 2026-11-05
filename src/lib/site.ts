@@ -55,7 +55,7 @@ export async function getSchoolsWithGames() {
       ...s.data,
       games: mine,
       latestFinal: finals[0],
-      next: mine.filter((g) => g.data.status === 'upcoming').at(-1),
+      next: mine.filter((g) => g.data.status === 'upcoming' && g.data.date >= startOfToday()).at(-1),
       record: finals.length ? `${wins}-${losses}` : '',
     };
   });

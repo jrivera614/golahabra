@@ -1,6 +1,347 @@
 [
-  { "id": "sample-lhhs-1", "school": "lhhs", "opponent": "Sample Opponent", "date": "2026-10-30", "home": true, "status": "final", "us": 28, "them": 21, "label": "Week 10", "draft": true },
-  { "id": "sample-sonora-1", "school": "sonora", "opponent": "Sample Opponent", "date": "2026-10-30", "home": false, "status": "final", "us": 14, "them": 17, "label": "Week 10", "draft": true },
-  { "id": "sample-wchs-1", "school": "wchs", "opponent": "Sample Opponent", "date": "2026-10-31", "home": true, "status": "final", "us": 35, "them": 7, "label": "Week 10", "draft": true },
-  { "id": "sample-lhhs-2", "school": "lhhs", "opponent": "Sample Opponent", "date": "2026-11-13", "home": false, "status": "upcoming", "label": "Playoffs, Round 1", "draft": true }
+  {
+    "id": "lhhs-2026-08-21",
+    "school": "lhhs",
+    "opponent": "Upland",
+    "date": "2026-08-21",
+    "home": false,
+    "status": "final",
+    "us": 55,
+    "them": 13
+  },
+  {
+    "id": "lhhs-2026-08-28",
+    "school": "lhhs",
+    "opponent": "Northview",
+    "date": "2026-08-28",
+    "home": true,
+    "status": "final",
+    "us": 35,
+    "them": 14
+  },
+  {
+    "id": "lhhs-2026-09-04",
+    "school": "lhhs",
+    "opponent": "Paraclete",
+    "date": "2026-09-04",
+    "home": true,
+    "status": "final",
+    "us": 26,
+    "them": 22
+  },
+  {
+    "id": "lhhs-2026-09-11",
+    "school": "lhhs",
+    "opponent": "Mira Costa",
+    "date": "2026-09-11",
+    "home": false,
+    "status": "final",
+    "us": 29,
+    "them": 24
+  },
+  {
+    "id": "lhhs-2026-09-18",
+    "school": "lhhs",
+    "opponent": "Orange Vista",
+    "date": "2026-09-18",
+    "home": true,
+    "status": "final",
+    "us": 36,
+    "them": 7
+  },
+  {
+    "id": "lhhs-2026-10-02",
+    "school": "lhhs",
+    "opponent": "Capistrano Valley",
+    "date": "2026-10-02",
+    "home": false,
+    "status": "final",
+    "us": 20,
+    "them": 42,
+    "label": "League"
+  },
+  {
+    "id": "lhhs-2026-10-09",
+    "school": "lhhs",
+    "opponent": "Villa Park",
+    "date": "2026-10-09",
+    "home": true,
+    "status": "final",
+    "us": 33,
+    "them": 36,
+    "label": "League"
+  },
+  {
+    "id": "lhhs-2026-10-16",
+    "school": "lhhs",
+    "opponent": "Crean Lutheran",
+    "date": "2026-10-16",
+    "home": true,
+    "status": "final",
+    "us": 28,
+    "them": 35,
+    "label": "League"
+  },
+  {
+    "id": "lhhs-2026-10-22",
+    "school": "lhhs",
+    "opponent": "Tustin",
+    "date": "2026-10-22",
+    "home": true,
+    "status": "final",
+    "us": 20,
+    "them": 34,
+    "label": "League"
+  },
+  {
+    "id": "lhhs-2026-10-30",
+    "school": "lhhs",
+    "opponent": "Corona del Mar",
+    "date": "2026-10-30",
+    "home": true,
+    "status": "final",
+    "us": 24,
+    "them": 29,
+    "label": "League"
+  },
+  {
+    "id": "lhhs-2026-11-05",
+    "school": "lhhs",
+    "opponent": "Etiwanda",
+    "date": "2026-11-05",
+    "time": "7:00 pm",
+    "home": true,
+    "status": "upcoming",
+    "label": "CIF-SS playoffs"
+  },
+  {
+    "id": "sonora-2026-08-21",
+    "school": "sonora",
+    "opponent": "Cabrillo",
+    "date": "2026-08-21",
+    "home": true,
+    "status": "final",
+    "us": 48,
+    "them": 28
+  },
+  {
+    "id": "sonora-2026-08-28",
+    "school": "sonora",
+    "opponent": "Rosemead",
+    "date": "2026-08-28",
+    "home": false,
+    "status": "final",
+    "us": 45,
+    "them": 3
+  },
+  {
+    "id": "sonora-2026-09-04",
+    "school": "sonora",
+    "opponent": "Walnut",
+    "date": "2026-09-04",
+    "home": false,
+    "status": "final",
+    "us": 42,
+    "them": 7
+  },
+  {
+    "id": "sonora-2026-09-11",
+    "school": "sonora",
+    "opponent": "Saddleback",
+    "date": "2026-09-11",
+    "home": true,
+    "status": "final",
+    "us": 43,
+    "them": 0
+  },
+  {
+    "id": "sonora-2026-09-18",
+    "school": "sonora",
+    "opponent": "Sunny Hills",
+    "date": "2026-09-18",
+    "home": false,
+    "status": "final",
+    "us": 14,
+    "them": 0
+  },
+  {
+    "id": "sonora-2026-10-02",
+    "school": "sonora",
+    "opponent": "Fountain Valley",
+    "date": "2026-10-02",
+    "home": true,
+    "status": "final",
+    "us": 14,
+    "them": 20,
+    "label": "League"
+  },
+  {
+    "id": "sonora-2026-10-09",
+    "school": "sonora",
+    "opponent": "Westminster",
+    "date": "2026-10-09",
+    "home": false,
+    "status": "final",
+    "us": 17,
+    "them": 14,
+    "label": "League"
+  },
+  {
+    "id": "sonora-2026-10-15",
+    "school": "sonora",
+    "opponent": "Calvary Chapel",
+    "date": "2026-10-15",
+    "home": false,
+    "status": "final",
+    "us": 34,
+    "them": 12,
+    "label": "League"
+  },
+  {
+    "id": "sonora-2026-10-23",
+    "school": "sonora",
+    "opponent": "Woodbridge",
+    "date": "2026-10-23",
+    "home": true,
+    "status": "final",
+    "us": 26,
+    "them": 13,
+    "label": "League"
+  },
+  {
+    "id": "sonora-2026-10-30",
+    "school": "sonora",
+    "opponent": "Valencia",
+    "date": "2026-10-30",
+    "home": false,
+    "status": "final",
+    "us": 33,
+    "them": 7,
+    "label": "League"
+  },
+  {
+    "id": "sonora-2026-11-06",
+    "school": "sonora",
+    "opponent": "Desert Hot Springs",
+    "date": "2026-11-06",
+    "time": "7:00 pm",
+    "home": true,
+    "status": "upcoming",
+    "label": "CIF-SS playoffs"
+  },
+  {
+    "id": "wchs-2026-08-22",
+    "school": "wchs",
+    "opponent": "La Sierra",
+    "date": "2026-08-22",
+    "home": false,
+    "status": "final",
+    "us": 31,
+    "them": 50
+  },
+  {
+    "id": "wchs-2026-08-28",
+    "school": "wchs",
+    "opponent": "Nuview Bridge",
+    "date": "2026-08-28",
+    "home": true,
+    "status": "final",
+    "us": 32,
+    "them": 22
+  },
+  {
+    "id": "wchs-2026-09-04",
+    "school": "wchs",
+    "opponent": "Ontario Christian",
+    "date": "2026-09-04",
+    "home": false,
+    "status": "final",
+    "us": 20,
+    "them": 36
+  },
+  {
+    "id": "wchs-2026-09-11",
+    "school": "wchs",
+    "opponent": "Santa Ana",
+    "date": "2026-09-11",
+    "home": true,
+    "status": "final",
+    "us": 28,
+    "them": 21
+  },
+  {
+    "id": "wchs-2026-09-18",
+    "school": "wchs",
+    "opponent": "Desert Mirage",
+    "date": "2026-09-18",
+    "home": false,
+    "status": "final",
+    "us": 44,
+    "them": 22
+  },
+  {
+    "id": "wchs-2026-10-02",
+    "school": "wchs",
+    "opponent": "Notre Dame",
+    "date": "2026-10-02",
+    "home": true,
+    "status": "final",
+    "us": 6,
+    "them": 21,
+    "label": "League"
+  },
+  {
+    "id": "wchs-2026-10-09",
+    "school": "wchs",
+    "opponent": "Vasquez",
+    "date": "2026-10-09",
+    "home": false,
+    "status": "final",
+    "us": 44,
+    "them": 13,
+    "label": "League"
+  },
+  {
+    "id": "wchs-2026-10-16",
+    "school": "wchs",
+    "opponent": "Arrowhead Christian",
+    "date": "2026-10-16",
+    "home": false,
+    "status": "final",
+    "us": 32,
+    "them": 12,
+    "label": "League"
+  },
+  {
+    "id": "wchs-2026-10-23",
+    "school": "wchs",
+    "opponent": "Riverside Prep",
+    "date": "2026-10-23",
+    "home": false,
+    "status": "final",
+    "us": 18,
+    "them": 14,
+    "label": "League"
+  },
+  {
+    "id": "wchs-2026-10-30",
+    "school": "wchs",
+    "opponent": "Webb",
+    "date": "2026-10-30",
+    "home": true,
+    "status": "final",
+    "us": 27,
+    "them": 18,
+    "label": "League"
+  },
+  {
+    "id": "wchs-2026-11-06",
+    "school": "wchs",
+    "opponent": "La Sierra",
+    "date": "2026-11-06",
+    "time": "7:00 pm",
+    "home": true,
+    "status": "upcoming",
+    "label": "CIF-SS playoffs"
+  }
 ]

@@ -41,7 +41,7 @@ const schools = await getSchoolsWithGames();
                       <td>
                         {d.status === 'final'
                           ? <span class:list={['res', { won, lost }]}>{won ? 'W' : lost ? 'L' : 'T'} {d.us}-{d.them}</span>
-                          : <span class="muted">Upcoming</span>}
+                          : <span class="muted">{d.time ?? 'Upcoming'}</span>}
                       </td>
                       <td>{d.recap && <a href={d.recap} class="recap">Recap</a>}</td>
                     </tr>

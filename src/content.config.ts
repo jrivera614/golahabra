@@ -50,6 +50,7 @@ const games = defineCollection({
     school: z.enum(['lhhs', 'sonora', 'wchs']),
     opponent: z.string(),
     date: z.coerce.date(),
+    time: z.string().optional(),
     home: z.boolean(),
     status: z.enum(['upcoming', 'final']),
     us: z.number().int().optional(),

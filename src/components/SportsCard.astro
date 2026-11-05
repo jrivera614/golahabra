@@ -23,10 +23,16 @@ const schools = await getSchoolsWithGames();
           <div class="board">
             <div class="row"><span>{s.name}</span><span class="disp score">{g.us}</span></div>
             <div class="row dim"><span>{g.opponent}</span><span class="disp score">{g.them}</span></div>
-            <span class="note">Final · {g.label ?? fmtDate(g.date, { month: 'short', day: 'numeric' })}{s.record && ` · ${s.mascot} ${s.record}`}</span>
+            <span class="note">Final · {fmtDate(g.date, { month: 'short', day: 'numeric' })}{s.record && ` · ${s.mascot} ${s.record}`}</span>
           </div>
         ) : (
           <div class="board"><span class="note">{s.mascot} scores start posting this season.</span></div>
+        )}
+        {s.next && (
+          <p class="next">
+            <span class="kicker on-dark">Next{s.next.data.label && ` · ${s.next.data.label}`}</span>
+            <span>{fmtDate(s.next.data.date, { weekday: 'short', month: 'short', day: 'numeric' })}{s.next.data.time && `, ${s.next.data.time}`} · {s.next.data.home ? 'vs' : '@'} {s.next.data.opponent}</span>
+          </p>
         )}
         <a href={`/sports/#${s.id}`} class="btn btn-light">See {s.mascot} games</a>
       </div>
@@ -80,4 +86,5 @@ const schools = await getSchoolsWithGames();
   .dim { color: var(--dark-muted); }
   .score { font-size: 28px; }
   .note { font-size: 13px; color: var(--dark-muted); }
+  .next { margin: 0; display: flex; flex-direction: column; gap: 4px; font-size: 16px; font-weight: 600; }
 </style>

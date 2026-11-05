@@ -1,6 +1,5 @@
 [
-  { "id": "sample-1", "name": "Sample event", "date": "2026-11-14", "time": "10:00 am", "place": "La Bonita Park", "draft": true },
-  { "id": "sample-2", "name": "Sample event", "date": "2026-11-15", "time": "1:00 pm", "place": "Children's Museum at La Habra", "draft": true },
-  { "id": "sample-3", "name": "Sample event", "date": "2026-11-21", "place": "La Habra Community Center", "draft": true },
-  { "id": "sample-4", "name": "Sample event", "date": "2026-11-28", "place": "Downtown La Habra", "draft": true }
+  { "id": "football-lhhs-etiwanda-2026", "name": "CIF-SS football playoffs: Etiwanda at La Habra", "date": "2026-11-05", "time": "7:00 pm", "place": "Home game for the La Habra Highlanders" },
+  { "id": "football-sonora-dhs-2026", "name": "CIF-SS football playoffs: Desert Hot Springs at Sonora", "date": "2026-11-06", "time": "7:00 pm", "place": "Home game for the Sonora Raiders" },
+  { "id": "football-wchs-lasierra-2026", "name": "CIF-SS football playoffs: La Sierra at Whittier Christian", "date": "2026-11-06", "time": "7:00 pm", "place": "Home game for the Whittier Christian Heralds" }
 ]
