@@ -4,7 +4,7 @@ dek: "Volunteers kick off at Portola Park at 8 am on Nov. 7, then head out to pr
 date: 2026-11-04
 category: Community
 author: Go La Habra
-draft: true
+draft: false
 ---
 
 If you've been meaning to give back to La Habra, this Saturday is an easy place to start.
