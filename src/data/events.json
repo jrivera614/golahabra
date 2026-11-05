@@ -22,5 +22,38 @@
     "time": "7:00 pm",
     "place": "Home game for the Whittier Christian Heralds",
     "source": "https://www.maxpreps.com/ca/la-habra/whittier-christian-heralds/football/schedule/"
+  },
+  {
+    "id": "love-la-habra-serve-day-2026",
+    "name": "Love La Habra Serve Day",
+    "date": "2026-11-07",
+    "time": "8:00 am to 12:00 pm",
+    "place": "Kickoff rally at Portola Park, 301 S. Euclid St., La Habra",
+    "link": "https://lovelahabra.com/2026-Serve-Day",
+    "source": "https://www.lahabraca.gov/Calendar.aspx?EID=5020&month=11&year=2026&day=4&calType=0"
+  },
+  {
+    "id": "veterans-day-program-2026",
+    "name": "Veterans Day Program",
+    "date": "2026-11-11",
+    "time": "11:00 am",
+    "place": "La Habra Community Center, 101 W. La Habra Blvd.",
+    "source": "https://www.lhcm.org/721/Veterans-Day-Program"
+  },
+  {
+    "id": "chamber-connectup-2026-11-12",
+    "name": "Chamber ConnectUp: Work Smarter, Grow Faster with AI",
+    "date": "2026-11-12",
+    "time": "8:15 am to 9:30 am",
+    "place": "La Habra Area Chamber of Commerce, 321 E. La Habra Blvd.",
+    "source": "https://business.lahabrachamber.com/events/details/connect-up-at-chamber-office-15998?calendarMonth=2026-11-01"
+  },
+  {
+    "id": "tamale-festival-2026",
+    "name": "La Habra Tamale Festival",
+    "date": "2026-12-05",
+    "place": "Euclid St. between La Habra Blvd. and Bridenbecker Ave., plus City Hall, Portola Park and Brio Park",
+    "link": "https://lhcm.org/677/Tamale-Festival",
+    "source": "https://lhcm.org/677/Tamale-Festival"
   }
 ]
