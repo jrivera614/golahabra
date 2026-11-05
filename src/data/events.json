@@ -1,5 +1,26 @@
 [
-  { "id": "football-lhhs-etiwanda-2026", "name": "CIF-SS football playoffs: Etiwanda at La Habra", "date": "2026-11-05", "time": "7:00 pm", "place": "Home game for the La Habra Highlanders" },
-  { "id": "football-sonora-dhs-2026", "name": "CIF-SS football playoffs: Desert Hot Springs at Sonora", "date": "2026-11-06", "time": "7:00 pm", "place": "Home game for the Sonora Raiders" },
-  { "id": "football-wchs-lasierra-2026", "name": "CIF-SS football playoffs: La Sierra at Whittier Christian", "date": "2026-11-06", "time": "7:00 pm", "place": "Home game for the Whittier Christian Heralds" }
+  {
+    "id": "football-lhhs-etiwanda-2026",
+    "name": "CIF-SS football playoffs: Etiwanda at La Habra",
+    "date": "2026-11-05",
+    "time": "7:00 pm",
+    "place": "Home game for the La Habra Highlanders",
+    "source": "https://www.maxpreps.com/ca/la-habra/la-habra-highlanders/football/schedule/"
+  },
+  {
+    "id": "football-sonora-dhs-2026",
+    "name": "CIF-SS football playoffs: Desert Hot Springs at Sonora",
+    "date": "2026-11-06",
+    "time": "7:00 pm",
+    "place": "Home game for the Sonora Raiders",
+    "source": "https://www.maxpreps.com/ca/la-habra/sonora-raiders/football/schedule/"
+  },
+  {
+    "id": "football-wchs-lasierra-2026",
+    "name": "CIF-SS football playoffs: La Sierra at Whittier Christian",
+    "date": "2026-11-06",
+    "time": "7:00 pm",
+    "place": "Home game for the Whittier Christian Heralds",
+    "source": "https://www.maxpreps.com/ca/la-habra/whittier-christian-heralds/football/schedule/"
+  }
 ]

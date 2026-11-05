@@ -69,6 +69,7 @@ const events = defineCollection({
     time: z.string().optional(),
     place: z.string(),
     link: z.url().optional(),
+    source: z.url().optional(),
     draft: z.boolean().default(false),
   }),
 });

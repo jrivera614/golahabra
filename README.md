@@ -28,3 +28,7 @@ npm run dev      # http://localhost:4321, drafts visible
 npm run build    # production build into dist/, drafts hidden
 npm run check    # type and schema check
 ```
+
+## Automation
+
+Scheduled Claude runs update scores and events and draft news. Their standing rules are in `CLAUDE.md`, and every run logs what it did in `editorial/log.md`.
