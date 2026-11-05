@@ -1,7 +1,7 @@
 ---
 title: "Love La Habra Serve Day is this Saturday"
 dek: "Volunteers kick off at Portola Park at 8 am on Nov. 7, then head out to projects around town."
-date: 2026-11-05
+date: 2026-11-04
 category: Community
 author: Go La Habra
 draft: true

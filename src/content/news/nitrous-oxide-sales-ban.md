@@ -1,7 +1,7 @@
 ---
 title: "La Habra moves to ban nitrous oxide sales"
 dek: "A new city law aimed at whippets came up for its final vote on Nov. 2. Here's what it covers and what's still exempt."
-date: 2026-11-05
+date: 2026-11-04
 category: City Hall
 author: Go La Habra
 draft: true
