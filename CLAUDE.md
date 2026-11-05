@@ -5,6 +5,7 @@ Read this whole file before doing anything in this repo. It is the standing inst
 Go La Habra (golahabra.com) is an independent local site for La Habra, CA, run by Justin Rivera and his wife Mariana. It covers where to eat, local news, events, and high school sports (La Habra, Sonora, Whittier Christian). It is not affiliated with the City of La Habra or any school.
 
 ## Always
+0. All dates and times are La Habra time (America/Los_Angeles), not UTC. Get today's date with `TZ=America/Los_Angeles date +%F` and use it for "today", log entries, post dates, and deciding what's past or upcoming.
 1. Read `editorial/log.md` (at least the last 4 weeks) before starting, so you know what's already been covered and what's pending.
 2. When you finish, append one dated entry to `editorial/log.md` (format at the top of that file). Log what you published, what you drafted, what you skipped and why, and any leads to follow up.
 3. Before every push: `npm ci` (if not done), `npm run check`, `npm run build`. Both must pass. Never push a broken build.
