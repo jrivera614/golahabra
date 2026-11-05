@@ -22,3 +22,9 @@ Format:
 - Skipped: Nov 2 Mayor's Community Calendar had no entries. City tree lighting 2026 page not updated yet (only 2025 info). Chamber "Living Trust Seminar" 11/21 (no details, looks like a vendor seminar). Council meetings and Planning Commission not added as events. No football scores this run: LHHS plays Etiwanda tonight, Sonora and WCHS play Fri 11/6.
 - Tips inbox: no mail to hello@golahabra.com in the last 14 days.
 - Leads / follow-ups: confirm the Nov 2 vote on nitrous oxide Ordinance CC 2026-09 from minutes (expected with the 11/16 agenda) and update the draft. Kratom ban work may be paused (Oct 19 agenda). Add tree lighting once the city posts 2026 details. Next council meeting Mon 11/16. Post first-round playoff scores once confirmed.
+
+## 2026-11-05 · weekly editor run (manual test fire)
+- Published: nothing new. Calendar already current from the run above.
+- Drafted: nothing new. Nitrous oxide and Serve Day drafts still draft: true, no approval from Justin yet.
+- Skipped: full re-research, since the previous run finished minutes earlier. Rechecked tips inbox (still empty) and Council Agenda Center (no Nov 16 agenda or Nov 2 minutes posted yet).
+- Leads / follow-ups: same as previous entry.
