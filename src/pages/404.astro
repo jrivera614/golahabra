@@ -1,0 +1,20 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Page not found">
+  <section class="wrap section">
+    <div class="kicker">404</div>
+    <h1 class="disp h-xl head">Wrong turn on Whittier Blvd.</h1>
+    <p class="lede">That page doesn't exist. Try the Eat List or the latest news instead.</p>
+    <div class="btns">
+      <a href="/eat/" class="btn">The Eat List</a>
+      <a href="/" class="btn btn-outline">Home</a>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .head { margin-top: 10px; }
+  .lede { margin: 16px 0 0; font-size: 20px; color: var(--ink-2); }
+  .btns { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+</style>

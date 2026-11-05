@@ -1,0 +1,80 @@
+---
+import Base from '../layouts/Base.astro';
+import { getSchoolsWithGames, fmtDate } from '../lib/site';
+const schools = await getSchoolsWithGames();
+---
+<Base title="High school football" description="La Habra Highlanders, Sonora Raiders, and Whittier Christian Heralds football scores and schedules.">
+  <section class="wrap section">
+    <div class="section-head">
+      <div>
+        <div class="kicker">Sports</div>
+        <h1 class="disp h-xl">Friday night in La Habra</h1>
+        <p>Scores and schedules for La Habra, Sonora, and Whittier Christian.</p>
+      </div>
+    </div>
+
+    <nav class="jump" aria-label="Schools">
+      {schools.map((s) => <a href={`#${s.id}`} class="btn btn-outline">{s.name}</a>)}
+    </nav>
+
+    {schools.map((s) => (
+      <section id={s.id} class="school" aria-labelledby={`${s.id}-title`}>
+        <div class="school-head">
+          <h2 id={`${s.id}-title`} class="disp h-md">{s.name} {s.mascot}</h2>
+          {s.record && <span class="record">{s.record}</span>}
+        </div>
+        {s.games.length > 0 ? (
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr><th scope="col">Date</th><th scope="col">Opponent</th><th scope="col">Result</th><th scope="col"><span class="sr-only">Recap</span></th></tr>
+              </thead>
+              <tbody>
+                {s.games.map((g) => {
+                  const d = g.data;
+                  const won = d.status === 'final' && (d.us ?? 0) > (d.them ?? 0);
+                  const lost = d.status === 'final' && (d.us ?? 0) < (d.them ?? 0);
+                  return (
+                    <tr>
+                      <td>{fmtDate(d.date, { month: 'short', day: 'numeric' })}{d.label && <span class="label">{d.label}</span>}</td>
+                      <td>{d.home ? 'vs' : '@'} {d.opponent}{d.draft && <span class="label">Draft</span>}</td>
+                      <td>
+                        {d.status === 'final'
+                          ? <span class:list={['res', { won, lost }]}>{won ? 'W' : lost ? 'L' : 'T'} {d.us}-{d.them}</span>
+                          : <span class="muted">Upcoming</span>}
+                      </td>
+                      <td>{d.recap && <a href={d.recap} class="recap">Recap</a>}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        ) : (
+          <p class="empty">{s.mascot} games start posting this season.</p>
+        )}
+      </section>
+    ))}
+  </section>
+</Base>
+
+<style>
+  .jump { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+  .school { padding-top: 40px; scroll-margin-top: 16px; }
+  .school-head { display: flex; align-items: baseline; gap: 16px; flex-wrap: wrap; margin-bottom: 16px; }
+  .record { font-weight: 600; color: var(--muted); }
+  .table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--radius); }
+  table { width: 100%; border-collapse: collapse; font-size: 16px; }
+  th { text-align: left; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); padding: 12px 16px; border-bottom: 1px solid var(--line); background: var(--soft); }
+  td { padding: 14px 16px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  tr:last-child td { border-bottom: 0; }
+  .label { display: block; font-size: 13px; color: var(--muted); }
+  .res { font-weight: 700; }
+  .won { color: #166534; }
+  .lost { color: #991b1b; }
+  .recap { color: var(--accent); font-weight: 600; text-decoration: underline; }
+  @media (max-width: 520px) {
+    table { font-size: 15px; }
+    th, td { padding: 12px 10px; }
+  }
+</style>

@@ -1,0 +1,83 @@
+---
+import { getSchoolsWithGames, fmtDate } from '../lib/site';
+const schools = await getSchoolsWithGames();
+---
+<div class="sports" data-sports>
+  <div class="head">
+    <span class="kicker on-dark">Friday night</span>
+    <h2 class="disp title">Local football</h2>
+    <p>La Habra, Sonora, and Whittier Christian, every week. Scores, recaps, and who stood out.</p>
+  </div>
+
+  <div class="toggle" role="group" aria-label="Pick a school">
+    {schools.map((s, i) => (
+      <button type="button" data-school={s.id} aria-pressed={i === 0 ? 'true' : 'false'}>{s.name}</button>
+    ))}
+  </div>
+
+  {schools.map((s, i) => {
+    const g = s.latestFinal?.data;
+    return (
+      <div class="panel" data-panel={s.id} hidden={i !== 0}>
+        {g ? (
+          <div class="board">
+            <div class="row"><span>{s.name}</span><span class="disp score">{g.us}</span></div>
+            <div class="row dim"><span>{g.opponent}</span><span class="disp score">{g.them}</span></div>
+            <span class="note">Final · {g.label ?? fmtDate(g.date, { month: 'short', day: 'numeric' })}{s.record && ` · ${s.mascot} ${s.record}`}</span>
+          </div>
+        ) : (
+          <div class="board"><span class="note">{s.mascot} scores start posting this season.</span></div>
+        )}
+        <a href={`/sports/#${s.id}`} class="btn btn-light">See {s.mascot} games</a>
+      </div>
+    );
+  })}
+</div>
+
+<script>
+  for (const card of document.querySelectorAll<HTMLElement>('[data-sports]')) {
+    const buttons = [...card.querySelectorAll<HTMLButtonElement>('button[data-school]')];
+    const panels = [...card.querySelectorAll<HTMLElement>('[data-panel]')];
+    for (const b of buttons) {
+      b.addEventListener('click', () => {
+        for (const x of buttons) x.setAttribute('aria-pressed', String(x === b));
+        for (const p of panels) p.hidden = p.dataset.panel !== b.dataset.school;
+      });
+    }
+  }
+</script>
+
+<style>
+  .sports {
+    border-radius: var(--radius-lg);
+    background: var(--dark);
+    color: #fff;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .head { display: flex; flex-direction: column; gap: 6px; }
+  .on-dark { color: var(--accent-on-dark); }
+  .title { font-size: 32px; color: #fff; }
+  .head p { margin: 0; color: var(--dark-muted); }
+  .toggle { display: flex; flex-wrap: wrap; gap: 6px; }
+  .toggle button {
+    min-height: 44px;
+    padding: 0 14px;
+    border: 0;
+    border-radius: 999px;
+    background: #2e2e2e;
+    color: #fff;
+    font: 600 14px var(--font-body);
+    cursor: pointer;
+  }
+  .toggle button[aria-pressed='true'] { background: #fff; color: var(--ink); }
+  .panel { display: flex; flex-direction: column; gap: 16px; }
+  .panel[hidden] { display: none; }
+  .board { display: flex; flex-direction: column; gap: 10px; padding: 18px; border-radius: 14px; background: var(--dark-2); }
+  .row { display: flex; justify-content: space-between; align-items: center; gap: 12px; font-size: 17px; font-weight: 600; }
+  .dim { color: var(--dark-muted); }
+  .score { font-size: 28px; }
+  .note { font-size: 13px; color: var(--dark-muted); }
+</style>

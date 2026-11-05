@@ -1,0 +1,6 @@
+[
+  { "id": "sample-lhhs-1", "school": "lhhs", "opponent": "Sample Opponent", "date": "2026-10-30", "home": true, "status": "final", "us": 28, "them": 21, "label": "Week 10", "draft": true },
+  { "id": "sample-sonora-1", "school": "sonora", "opponent": "Sample Opponent", "date": "2026-10-30", "home": false, "status": "final", "us": 14, "them": 17, "label": "Week 10", "draft": true },
+  { "id": "sample-wchs-1", "school": "wchs", "opponent": "Sample Opponent", "date": "2026-10-31", "home": true, "status": "final", "us": 35, "them": 7, "label": "Week 10", "draft": true },
+  { "id": "sample-lhhs-2", "school": "lhhs", "opponent": "Sample Opponent", "date": "2026-11-13", "home": false, "status": "upcoming", "label": "Playoffs, Round 1", "draft": true }
+]

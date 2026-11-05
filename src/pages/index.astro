@@ -1,0 +1,190 @@
+---
+import Base from '../layouts/Base.astro';
+import NewsletterForm from '../components/NewsletterForm.astro';
+import RestaurantCard from '../components/RestaurantCard.astro';
+import FilterChips from '../components/FilterChips.astro';
+import SportsCard from '../components/SportsCard.astro';
+import EventRow from '../components/EventRow.astro';
+import Arrow from '../components/Arrow.astro';
+import { getNews, getRestaurants, getUpcomingEvents, fmtDate, SITE } from '../lib/site';
+import { filterLabels } from '../lib/filters';
+
+const news = await getNews();
+const spots = await getRestaurants();
+const events = await getUpcomingEvents(4);
+const [lead, ...rest] = news;
+const side = rest.slice(0, 4);
+const thisWeek = news.slice(0, 4);
+const labels = filterLabels(spots).slice(0, 9);
+---
+<Base>
+  <section class="wrap hero">
+    <div class="hero-main">
+      <div class="kicker">La Habra, CA · 90631</div>
+      <h1 class="disp h-xl">Where to eat and what's actually happening in La Habra.</h1>
+      <p class="lede">Local picks, local news, and the stuff your group chat is asking about. Written by people who grew up here, not an algorithm.</p>
+      <NewsletterForm id="hero-email">
+        <span class="muted small">Free. One email a week.</span>
+      </NewsletterForm>
+    </div>
+
+    <aside class="week" aria-labelledby="week-title">
+      <h2 id="week-title" class="disp">This week in La Habra</h2>
+      {thisWeek.length > 0 ? (
+        <ul>
+          {thisWeek.map((p) => (
+            <li>
+              <a href={`/news/${p.id}/`}>
+                <span class="kicker">{p.data.category}</span>
+                <span class="t">{p.data.title}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <p class="muted">The first stories drop soon. Get on the Thursday email and you'll see them first.</p>
+      )}
+    </aside>
+  </section>
+
+  <section class="section section-soft" aria-labelledby="eat-title">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <h2 id="eat-title" class="disp h-lg">The Eat List</h2>
+          <p>Every spot on here, we've actually eaten at. No paid rankings.</p>
+        </div>
+        {spots.length > 0 && <a href="/eat/" class="more-link">See all {spots.length} spots <Arrow /></a>}
+      </div>
+      {spots.length > 0 ? (
+        <>
+          <FilterChips labels={labels} mode="link" />
+          <div class="grid">
+            {spots.slice(0, 6).map((s) => <RestaurantCard spot={s} />)}
+          </div>
+        </>
+      ) : (
+        <p class="empty"><strong>The list is cooking.</strong> First picks go up soon.</p>
+      )}
+    </div>
+  </section>
+
+  <section class="wrap section" aria-labelledby="news-title">
+    <div class="section-head">
+      <h2 id="news-title" class="disp h-lg">Local news</h2>
+      {news.length > 0 && <a href="/news/" class="more-link">All stories <Arrow /></a>}
+    </div>
+    {lead ? (
+      <div class="news">
+        <a href={`/news/${lead.id}/`} class="lead">
+          {lead.data.image && <img class="lead-img" src={lead.data.image} alt={lead.data.imageAlt ?? ''} width="1200" height="675" />}
+          <span class="kicker">{lead.data.category}</span>
+          <span class="disp h-md">{lead.data.title}</span>
+          <span class="dek">{lead.data.dek}</span>
+          <span class="muted small">By {lead.data.author} · {fmtDate(lead.data.date)}</span>
+        </a>
+        <div class="side">
+          {side.map((p) => (
+            <a href={`/news/${p.id}/`}>
+              <span class="kicker">{p.data.category}</span>
+              <span class="t">{p.data.title}</span>
+            </a>
+          ))}
+        </div>
+      </div>
+    ) : (
+      <p class="empty"><strong>No stories yet.</strong> Council recaps, new openings, and community news start here.</p>
+    )}
+  </section>
+
+  <section class="section-top" aria-label="Events and sports">
+    <div class="wrap section split">
+      <div class="events">
+        <div class="section-head tight">
+          <h2 class="disp h-lg">Coming up</h2>
+          <a href="/events/" class="more-link">All events <Arrow /></a>
+        </div>
+        {events.length > 0 ? (
+          <div>{events.map((e) => <EventRow event={e} />)}</div>
+        ) : (
+          <p class="empty"><strong>Nothing on the calendar yet.</strong> Know about something? <a href={`mailto:${SITE.email}?subject=Event`}>Send it in.</a></p>
+        )}
+      </div>
+      <div id="sports" class="sports-col">
+        <SportsCard />
+      </div>
+    </div>
+  </section>
+
+  <section id="drop" class="drop" aria-labelledby="drop-title">
+    <div class="wrap section drop-inner">
+      <div class="drop-copy">
+        <h2 id="drop-title" class="disp">The Thursday Drop</h2>
+        <p>New openings, what's happening this weekend, and one place worth trying. Every Thursday morning. Takes two minutes to read.</p>
+      </div>
+      <NewsletterForm id="drop-email" label="Your email" button="Subscribe" variant="onAccent" />
+    </div>
+  </section>
+
+  <section class="wrap section" aria-labelledby="ad-title">
+    <div class="ad">
+      <div class="ad-copy">
+        <h2 id="ad-title" class="disp">Own a La Habra business?</h2>
+        <p>Get in front of the people who live five minutes away. Featured listings and newsletter sponsorships.</p>
+      </div>
+      <div class="ad-btns">
+        <a href="/advertise/" class="btn">Advertise with us</a>
+        <a href={`mailto:${SITE.email}?subject=Restaurant%20suggestion`} class="btn btn-outline">Suggest a restaurant</a>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .hero { display: flex; flex-wrap: wrap; gap: 48px; align-items: flex-start; padding-block: 64px 56px; }
+  .hero-main { flex: 999 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 24px; }
+  .lede { margin: 0; max-width: 560px; font-size: 20px; color: var(--ink-2); }
+  .small { font-size: 14px; }
+
+  .week { flex: 1 1 340px; min-width: 0; border: 1px solid var(--line); border-radius: var(--radius-lg); padding: 24px; }
+  .week h2 { font-size: 24px; padding-bottom: 12px; }
+  .week ul { list-style: none; margin: 0; padding: 0; }
+  .week a { display: flex; flex-direction: column; gap: 4px; padding: 14px 0; border-top: 1px solid #ededed; }
+  .week p { margin: 0; }
+  .t { font-size: 17px; font-weight: 600; line-height: 1.35; }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; margin-top: 24px; }
+
+  .news { display: flex; flex-wrap: wrap; gap: 40px; }
+  .lead { flex: 999 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 14px; color: var(--ink); }
+  .lead:hover .h-md { color: var(--accent); }
+  .lead-img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; border-radius: var(--radius); background: var(--soft); }
+  .lead { padding: 28px; border: 1px solid var(--line); border-radius: var(--radius-lg); }
+  .lead:has(img) { padding: 0; border: 0; }
+  .dek { font-size: 18px; color: var(--ink-2); }
+  .side { flex: 1 1 320px; min-width: 0; display: flex; flex-direction: column; }
+  .side a { display: flex; flex-direction: column; gap: 6px; padding: 18px 0; border-bottom: 1px solid var(--line); }
+  .side a:last-child { border-bottom: 0; }
+  .side .t { font-size: 19px; }
+
+  .section-top { border-top: 1px solid var(--line); }
+  .split { display: flex; flex-wrap: wrap; gap: 32px; }
+  .events { flex: 999 1 480px; min-width: 0; }
+  .tight { margin-bottom: 12px; }
+  .sports-col { flex: 1 1 340px; min-width: 0; }
+
+  .drop { background: var(--accent); color: #fff; }
+  .drop-inner { display: flex; flex-wrap: wrap; align-items: center; gap: 32px; }
+  .drop-copy { flex: 999 1 460px; min-width: 0; }
+  .drop-copy h2 { font-size: clamp(36px, 5vw, 56px); color: #fff; }
+  .drop-copy p { margin: 12px 0 0; max-width: 560px; font-size: 19px; }
+  .drop :global(form) { flex: 1 1 360px; }
+
+  .ad { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 24px; padding: 32px; border: 1px solid var(--line); border-radius: var(--radius-lg); }
+  .ad-copy { flex: 999 1 420px; min-width: 0; }
+  .ad-copy h2 { font-size: 32px; }
+  .ad-copy p { margin: 8px 0 0; font-size: 18px; color: var(--ink-2); }
+  .ad-btns { display: flex; flex-wrap: wrap; gap: 12px; }
+
+  .empty a { color: var(--accent); text-decoration: underline; }
+</style>

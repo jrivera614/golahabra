@@ -1,0 +1,6 @@
+[
+  { "id": "sample-1", "name": "Sample event", "date": "2026-11-14", "time": "10:00 am", "place": "La Bonita Park", "draft": true },
+  { "id": "sample-2", "name": "Sample event", "date": "2026-11-15", "time": "1:00 pm", "place": "Children's Museum at La Habra", "draft": true },
+  { "id": "sample-3", "name": "Sample event", "date": "2026-11-21", "place": "La Habra Community Center", "draft": true },
+  { "id": "sample-4", "name": "Sample event", "date": "2026-11-28", "place": "Downtown La Habra", "draft": true }
+]

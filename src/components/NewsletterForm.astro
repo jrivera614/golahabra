@@ -1,0 +1,52 @@
+---
+import { SITE } from '../lib/site';
+
+interface Props {
+  id: string;
+  label?: string;
+  button?: string;
+  variant?: 'light' | 'onAccent';
+}
+
+const { id, label = 'Get the Thursday email', button = 'Sign me up', variant = 'light' } = Astro.props;
+const live = Boolean(SITE.newsletterUrl);
+---
+<form class:list={['nl', variant]} action={live ? SITE.newsletterUrl : undefined} method="post" target="_blank">
+  <label for={id}>{label}</label>
+  <div class="row">
+    <input id={id} name="email" type="email" autocomplete="email" placeholder="you@email.com" required disabled={!live} />
+    <button type="submit" disabled={!live}>{live ? button : 'Coming soon'}</button>
+  </div>
+  <slot />
+</form>
+
+<style>
+  .nl { display: flex; flex-direction: column; gap: 8px; max-width: 520px; width: 100%; }
+  label { font-size: 15px; font-weight: 600; }
+  .row { display: flex; flex-wrap: wrap; gap: 8px; }
+  input {
+    flex: 1 1 220px;
+    min-width: 0;
+    height: 52px;
+    padding: 0 16px;
+    border-radius: 12px;
+    border: 1px solid var(--line-2);
+    font: 400 16px var(--font-body);
+    color: var(--ink);
+    background: #fff;
+  }
+  button {
+    height: 52px;
+    padding: 0 22px;
+    border: 0;
+    border-radius: 12px;
+    background: var(--accent);
+    color: var(--accent-ink);
+    font: 600 16px var(--font-body);
+    cursor: pointer;
+  }
+  button:disabled, input:disabled { cursor: not-allowed; opacity: 0.75; }
+  .onAccent label { color: #fff; }
+  .onAccent input { border-color: #fff; }
+  .onAccent button { background: var(--ink); }
+</style>

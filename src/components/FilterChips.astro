@@ -1,0 +1,66 @@
+---
+import { slugify } from '../lib/site';
+
+interface Props {
+  labels: string[];
+  /** 'filter' toggles cards on this page; 'link' sends to /eat/?f=... */
+  mode?: 'filter' | 'link';
+}
+const { labels, mode = 'filter' } = Astro.props;
+const chips = [{ label: 'All', key: 'all' }, ...labels.map((l) => ({ label: l, key: slugify(l) }))];
+---
+<div class="chips" role="group" aria-label="Filter restaurants" data-chips={mode}>
+  {chips.map((c, i) =>
+    mode === 'link' ? (
+      <a class="chip" href={c.key === 'all' ? '/eat/' : `/eat/?f=${c.key}`}>{c.label}</a>
+    ) : (
+      <button type="button" class="chip" data-key={c.key} aria-pressed={i === 0 ? 'true' : 'false'}>{c.label}</button>
+    ),
+  )}
+</div>
+
+<script>
+  for (const group of document.querySelectorAll<HTMLElement>('[data-chips="filter"]')) {
+    const scope = group.closest('[data-filter-scope]') ?? document;
+    const buttons = [...group.querySelectorAll<HTMLButtonElement>('button[data-key]')];
+    const cards = [...scope.querySelectorAll<HTMLElement>('[data-filters]')];
+    const empty = scope.querySelector<HTMLElement>('[data-filter-empty]');
+
+    const apply = (key: string) => {
+      let shown = 0;
+      for (const b of buttons) b.setAttribute('aria-pressed', String(b.dataset.key === key));
+      for (const c of cards) {
+        const match = key === 'all' || (c.dataset.filters ?? '').split(' ').includes(key);
+        c.hidden = !match;
+        if (match) shown++;
+      }
+      if (empty) empty.hidden = shown > 0;
+      const url = new URL(location.href);
+      if (key === 'all') url.searchParams.delete('f');
+      else url.searchParams.set('f', key);
+      history.replaceState(null, '', url);
+    };
+
+    for (const b of buttons) b.addEventListener('click', () => apply(b.dataset.key ?? 'all'));
+    const initial = new URL(location.href).searchParams.get('f');
+    if (initial && buttons.some((b) => b.dataset.key === initial)) apply(initial);
+  }
+</script>
+
+<style>
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 0 16px;
+    border-radius: 999px;
+    border: 1px solid #dadada;
+    background: #fff;
+    font: 500 15px var(--font-body);
+    color: var(--ink);
+    cursor: pointer;
+  }
+  .chip:hover { border-color: var(--ink); color: var(--ink); }
+  .chip[aria-pressed='true'] { background: var(--ink); border-color: var(--ink); color: #fff; }
+</style>

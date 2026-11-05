@@ -1,0 +1,21 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE } from '../lib/site';
+---
+<Base title="About" description="Go La Habra is an independent local guide to La Habra, CA, run by people who grew up here.">
+  <section class="wrap section">
+    <div class="kicker">About</div>
+    <h1 class="disp h-xl head">A local guide, by locals.</h1>
+    <div class="prose">
+      <p>Go La Habra is an independent site about La Habra, California: where to eat, what's happening around town, and how the high school teams did on Friday night.</p>
+      <p>Every restaurant on the Eat List is a place we've actually eaten at. Nobody pays to be on it, and nobody pays for a good review. When something is sponsored, it says so.</p>
+      <p>We're not affiliated with the City of La Habra, the school districts, or any business we write about.</p>
+      <h2>Got a tip?</h2>
+      <p>New spot opening, something happening at City Hall, a game we should cover? Email <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.</p>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .head { margin: 10px 0 28px; max-width: 900px; }
+</style>

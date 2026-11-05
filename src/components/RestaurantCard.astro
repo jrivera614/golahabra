@@ -1,0 +1,44 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { slugify } from '../lib/site';
+
+interface Props { spot: CollectionEntry<'restaurants'> }
+const { spot } = Astro.props;
+const d = spot.data;
+const keys = [d.cuisine, ...d.tags].map(slugify).join(' ');
+const Tag = d.website ? 'a' : 'article';
+---
+<Tag class="card" data-filters={keys} href={d.website} rel={d.website ? 'noopener' : undefined}>
+  {d.photo && <img class="photo" src={d.photo} alt={d.photoAlt ?? `${d.name}`} loading="lazy" width="600" height="450" />}
+  <div class="body">
+    {d.draft && <span class="draft">Draft</span>}
+    <h3 class="disp name">{d.name}</h3>
+    <p class="meta">{d.cuisine} · {d.price} · {d.street}</p>
+    <p class="take"><strong>Our take:</strong> {d.take}</p>
+    {d.tags.length > 0 && (
+      <ul class="tags">{d.tags.map((t) => <li>{t}</li>)}</ul>
+    )}
+  </div>
+</Tag>
+
+<style>
+  .card {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    overflow: hidden;
+    color: var(--ink);
+  }
+  a.card:hover { border-color: var(--ink); color: var(--ink); }
+  .card[hidden] { display: none; }
+  .photo { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; background: var(--soft); }
+  .body { padding: 18px; display: flex; flex-direction: column; gap: 8px; }
+  .name { font-size: 21px; }
+  .meta { margin: 0; font-size: 15px; color: var(--muted); }
+  .take { margin: 0; font-size: 15px; line-height: 1.45; }
+  .tags { list-style: none; margin: 0; padding: 4px 0 0; display: flex; flex-wrap: wrap; gap: 6px; }
+  .tags li { font-size: 13px; font-weight: 600; padding: 4px 10px; border-radius: 999px; background: var(--chip); color: #3a3a3a; }
+  .draft { align-self: flex-start; font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 2px 8px; border-radius: 4px; background: #fff3cd; color: #6b4e00; }
+</style>

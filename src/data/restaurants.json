@@ -1,0 +1,8 @@
+[
+  { "id": "sample-tacos", "name": "Sample Taco Spot", "cuisine": "Tacos", "price": "$", "street": "Whittier Blvd", "tags": ["Open late"], "take": "Sample entry. Replace with your own take: what to order, what to skip.", "added": "2026-11-04", "draft": true },
+  { "id": "sample-breakfast", "name": "Sample Breakfast Place", "cuisine": "Breakfast", "price": "$$", "street": "Harbor Blvd", "tags": ["Kid friendly", "Breakfast"], "take": "Sample entry. Replace with your own take.", "added": "2026-11-04", "draft": true },
+  { "id": "sample-boba", "name": "Sample Boba Shop", "cuisine": "Boba & coffee", "price": "$", "street": "Imperial Hwy", "tags": ["Study spot"], "take": "Sample entry. Replace with your own take.", "added": "2026-11-04", "draft": true },
+  { "id": "sample-pho", "name": "Sample Pho House", "cuisine": "Pho & ramen", "price": "$", "street": "Beach Blvd", "tags": ["Big portions"], "take": "Sample entry. Replace with your own take.", "added": "2026-11-04", "draft": true },
+  { "id": "sample-pizza", "name": "Sample Pizza Joint", "cuisine": "Pizza", "price": "$$", "street": "La Habra Blvd", "tags": ["Kid friendly"], "take": "Sample entry. Replace with your own take.", "added": "2026-11-04", "draft": true },
+  { "id": "sample-mariscos", "name": "Sample Mariscos", "cuisine": "Mariscos", "price": "$$", "street": "Euclid St", "tags": ["Weekend pick", "Date night"], "take": "Sample entry. Replace with your own take.", "added": "2026-11-04", "draft": true }
+]

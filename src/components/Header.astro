@@ -1,0 +1,38 @@
+---
+import { NAV } from '../lib/site';
+const path = Astro.url.pathname;
+---
+<header class="site-header">
+  <nav class="wrap nav" aria-label="Main">
+    <a href="/" class="logo disp" aria-label="Go La Habra home"><span>go</span> la habra</a>
+    <div class="links">
+      {NAV.map((item) => (
+        <a href={item.href} aria-current={path.startsWith(item.href) ? 'page' : undefined}>{item.label}</a>
+      ))}
+      <a href="/#drop" class="btn cta">Get the Thursday Drop</a>
+    </div>
+  </nav>
+</header>
+
+<style>
+  .site-header { border-bottom: 1px solid var(--line); background: #fff; }
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px 16px;
+    padding-block: 14px;
+  }
+  .logo { font-size: 26px; color: var(--ink); }
+  .logo span { color: var(--accent); }
+  .logo:hover { color: var(--ink); }
+  .links { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 22px; font-weight: 500; }
+  .links > a:not(.btn) { min-height: 44px; display: inline-flex; align-items: center; }
+  .links > a[aria-current='page'] { color: var(--accent); }
+  .cta { min-height: 44px; padding: 0 18px; font-size: 15px; }
+  @media (max-width: 720px) {
+    .cta { display: none; }
+    .links { gap: 4px 18px; }
+  }
+</style>

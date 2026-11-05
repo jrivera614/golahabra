@@ -1,0 +1,5 @@
+[
+  { "id": "lhhs", "name": "La Habra", "mascot": "Highlanders", "order": 1 },
+  { "id": "sonora", "name": "Sonora", "mascot": "Raiders", "order": 2 },
+  { "id": "wchs", "name": "Whittier Christian", "mascot": "Heralds", "order": 3 }
+]

@@ -1,0 +1,31 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { fmtDate } from '../lib/site';
+
+interface Props { event: CollectionEntry<'events'> }
+const e = Astro.props.event.data;
+const Tag = e.link ? 'a' : 'div';
+---
+<Tag class="row" href={e.link} rel={e.link ? 'noopener' : undefined}>
+  <div class="date" aria-hidden="true">
+    <span class="kicker">{fmtDate(e.date, { month: 'short' })}</span>
+    <span class="disp day">{fmtDate(e.date, { day: 'numeric' })}</span>
+  </div>
+  <div class="info">
+    <span class="name">{e.name}{e.draft && <span class="draft"> (draft)</span>}</span>
+    <span class="muted">
+      <span class="sr-only">{fmtDate(e.date, { weekday: 'long', month: 'long', day: 'numeric' })}. </span>
+      {fmtDate(e.date, { weekday: 'short' })}{e.time && `, ${e.time}`} · {e.place}
+    </span>
+  </div>
+</Tag>
+
+<style>
+  .row { display: flex; align-items: center; gap: 18px; padding: 16px 0; border-top: 1px solid var(--line); color: var(--ink); }
+  .date { width: 64px; height: 64px; flex: none; border-radius: 12px; background: var(--soft); display: flex; flex-direction: column; align-items: center; justify-content: center; }
+  .day { font-size: 22px; line-height: 1; }
+  .info { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+  .name { font-size: 18px; font-weight: 600; }
+  .muted { font-size: 15px; }
+  .draft { color: #8a6d00; font-weight: 500; }
+</style>

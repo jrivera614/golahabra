@@ -1,0 +1,66 @@
+---
+import Base from '../../layouts/Base.astro';
+import RestaurantCard from '../../components/RestaurantCard.astro';
+import FilterChips from '../../components/FilterChips.astro';
+import { getRestaurants, SITE } from '../../lib/site';
+import { filterLabels } from '../../lib/filters';
+
+const spots = await getRestaurants();
+const labels = filterLabels(spots);
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: 'The Eat List: La Habra restaurants',
+  itemListElement: spots
+    .filter((s) => !s.data.draft)
+    .map((s, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      item: {
+        '@type': 'Restaurant',
+        name: s.data.name,
+        servesCuisine: s.data.cuisine,
+        priceRange: s.data.price,
+        address: { '@type': 'PostalAddress', streetAddress: s.data.street, addressLocality: 'La Habra', addressRegion: 'CA', postalCode: '90631' },
+        ...(s.data.website ? { url: s.data.website } : {}),
+      },
+    })),
+};
+---
+<Base title="The Eat List" description="Where to eat in La Habra, CA. Tacos, breakfast, boba, pho, mariscos and more, picked by locals who actually ate there.">
+  {jsonLd.itemListElement.length > 0 && (
+    <script slot="head" type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  )}
+  <section class="wrap section" data-filter-scope>
+    <div class="section-head">
+      <div>
+        <div class="kicker">Eat</div>
+        <h1 class="disp h-xl">The Eat List</h1>
+        <p>Every spot on here, we've actually eaten at. No paid rankings, ever.</p>
+      </div>
+    </div>
+
+    {spots.length > 0 ? (
+      <>
+        <FilterChips labels={labels} />
+        <div class="grid">
+          {spots.map((s) => <RestaurantCard spot={s} />)}
+        </div>
+        <p class="empty" data-filter-empty hidden><strong>Nothing here yet.</strong> We haven't added a spot in this category.</p>
+      </>
+    ) : (
+      <p class="empty"><strong>The list is cooking.</strong> First picks go up soon.</p>
+    )}
+
+    <p class="suggest">Think we're missing a spot? <a href={`mailto:${SITE.email}?subject=Restaurant%20suggestion`}>Tell us where to go.</a></p>
+  </section>
+</Base>
+
+<style>
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; margin-top: 24px; }
+  [data-filter-empty] { margin-top: 24px; }
+  [data-filter-empty][hidden] { display: none; }
+  .suggest { margin-top: 40px; font-size: 17px; color: var(--ink-2); }
+  .suggest a { color: var(--accent); text-decoration: underline; }
+</style>

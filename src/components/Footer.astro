@@ -1,0 +1,33 @@
+---
+import { SITE } from '../lib/site';
+const year = new Date().getFullYear();
+---
+<footer class="site-footer">
+  <div class="wrap inner">
+    <div class="brand">
+      <a href="/" class="logo disp"><span>go</span> la habra</a>
+      <p class="muted">Made in La Habra. Independent, not affiliated with the City of La Habra.</p>
+      <p class="muted small">© {year} {SITE.name}</p>
+    </div>
+    <nav class="links" aria-label="Footer">
+      <a href="/about/">About</a>
+      <a href={`mailto:${SITE.email}?subject=Tip`}>Send a tip</a>
+      <a href="/advertise/">Advertise</a>
+      <a href={`mailto:${SITE.email}`}>Contact</a>
+      <a href="/rss.xml">RSS</a>
+      {SITE.instagram && <a href={SITE.instagram}>Instagram</a>}
+      {SITE.tiktok && <a href={SITE.tiktok}>TikTok</a>}
+    </nav>
+  </div>
+</footer>
+
+<style>
+  .site-footer { border-top: 1px solid var(--line); background: var(--soft); }
+  .inner { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 24px; padding-block: 40px; }
+  .brand p { margin: 6px 0 0; font-size: 15px; }
+  .brand .small { font-size: 13px; }
+  .logo { font-size: 24px; }
+  .logo span { color: var(--accent); }
+  .links { display: flex; flex-wrap: wrap; gap: 4px 24px; align-items: center; font-weight: 500; }
+  .links a { min-height: 44px; display: inline-flex; align-items: center; }
+</style>

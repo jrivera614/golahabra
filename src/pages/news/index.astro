@@ -1,0 +1,41 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getNews, fmtDate } from '../../lib/site';
+const news = await getNews();
+---
+<Base title="Local news" description="La Habra local news in plain English: City Council recaps, new openings, schools, and community.">
+  <section class="wrap section">
+    <div class="section-head">
+      <div>
+        <div class="kicker">News</div>
+        <h1 class="disp h-xl">Local news</h1>
+        <p>What's going on in town, explained like a neighbor would.</p>
+      </div>
+    </div>
+    {news.length > 0 ? (
+      <ul class="list">
+        {news.map((p) => (
+          <li>
+            <a href={`/news/${p.id}/`}>
+              <span class="kicker">{p.data.category}{p.data.draft && ' · Draft'}</span>
+              <span class="disp title">{p.data.title}</span>
+              <span class="dek">{p.data.dek}</span>
+              <span class="muted small">{fmtDate(p.data.date)}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p class="empty"><strong>No stories yet.</strong> The first ones go up soon.</p>
+    )}
+  </section>
+</Base>
+
+<style>
+  .list { list-style: none; margin: 0; padding: 0; max-width: 820px; }
+  .list a { display: flex; flex-direction: column; gap: 6px; padding: 24px 0; border-top: 1px solid var(--line); color: var(--ink); }
+  .list a:hover .title { color: var(--accent); }
+  .title { font-size: clamp(22px, 2.6vw, 28px); line-height: 1.15; }
+  .dek { font-size: 17px; color: var(--ink-2); }
+  .small { font-size: 14px; }
+</style>
