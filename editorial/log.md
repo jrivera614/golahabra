@@ -34,3 +34,9 @@ Format:
 - Published: "Love La Habra Serve Day is this Saturday" (Justin approved).
 - Drafted: nothing. Nitrous oxide story stays draft: true.
 - Leads / follow-ups: nitrous oxide draft still awaiting Justin; confirm Nov 2 vote from minutes first.
+
+## 2026-11-06 · winter sports setup (Justin request)
+- Published: multi-sport support. games.json now has a `sport` field (football, boys/girls basketball, boys/girls soccer); existing games tagged football. /sports/ has sport tabs, opening on the sport in season; the home card follows the season (football while it has games left or a final in the last 10 days, then the next sport in season). Old /sports/#lhhs links still open football.
+- Published: 38 winter games from MaxPreps 2026-27 pages: Sonora boys basketball, WCHS boys and girls basketball, LHHS and Sonora girls soccer, Sonora boys soccer (first 3 games only).
+- Skipped: tournament games where home/away was unclear. Schedules not posted yet: LHHS boys and girls basketball, Sonora girls basketball, LHHS boys soccer, WCHS boys and girls soccer.
+- Leads / follow-ups: Saturday scores task prompt still says football only; Justin needs to approve that change. Fill in missing winter schedules as they post.

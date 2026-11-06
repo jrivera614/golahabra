@@ -48,6 +48,8 @@ const games = defineCollection({
   loader: file('src/data/games.json'),
   schema: z.object({
     school: z.enum(['lhhs', 'sonora', 'wchs']),
+    // Must match SPORTS in src/lib/site.ts. Older football entries have no sport, so it defaults.
+    sport: z.enum(['football', 'boys-basketball', 'girls-basketball', 'boys-soccer', 'girls-soccer']).default('football'),
     opponent: z.string(),
     date: z.coerce.date(),
     time: z.string().optional(),

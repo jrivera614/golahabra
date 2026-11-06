@@ -1,64 +1,143 @@
 ---
 import Base from '../layouts/Base.astro';
-import { getSchoolsWithGames, fmtDate } from '../lib/site';
-const schools = await getSchoolsWithGames();
+import { getSchoolsWithGames, getSportsOverview, fmtDate } from '../lib/site';
+const { sports, featured } = await getSportsOverview();
+const sections = await Promise.all(
+  sports.map(async (sp) => ({ ...sp, schools: await getSchoolsWithGames(sp.id) })),
+);
 ---
-<Base title="High school football" description="La Habra Highlanders, Sonora Raiders, and Whittier Christian Heralds football scores and schedules.">
+<Base title="High school sports" description="La Habra Highlanders, Sonora Raiders, and Whittier Christian Heralds scores and schedules: football, basketball, and soccer.">
   <section class="wrap section">
     <div class="section-head">
       <div>
         <div class="kicker">Sports</div>
-        <h1 class="disp h-xl">Friday night in La Habra</h1>
+        <h1 class="disp h-xl">Game day in La Habra</h1>
         <p>Scores and schedules for La Habra, Sonora, and Whittier Christian.</p>
       </div>
     </div>
 
-    <nav class="jump" aria-label="Schools">
-      {schools.map((s) => <a href={`#${s.id}`} class="btn btn-outline">{s.name}</a>)}
-    </nav>
+    {sections.length > 1 && (
+      <div class="tabs" role="tablist" aria-label="Pick a sport" data-sport-tabs>
+        {sections.map((sp) => (
+          <a
+            href={`#${sp.id}`}
+            role="tab"
+            id={`tab-${sp.id}`}
+            aria-controls={sp.id}
+            aria-selected={sp.id === featured.id ? 'true' : 'false'}
+            data-tab={sp.id}
+          >
+            {sp.label}{sp.inSeason && <span class="dot" aria-label="in season"></span>}
+          </a>
+        ))}
+      </div>
+    )}
 
-    {schools.map((s) => (
-      <section id={s.id} class="school" aria-labelledby={`${s.id}-title`}>
-        <div class="school-head">
-          <h2 id={`${s.id}-title`} class="disp h-md">{s.name} {s.mascot}</h2>
-          {s.record && <span class="record">{s.record}</span>}
-        </div>
-        {s.games.length > 0 ? (
-          <div class="table-wrap">
-            <table>
-              <thead>
-                <tr><th scope="col">Date</th><th scope="col">Opponent</th><th scope="col">Result</th><th scope="col"><span class="sr-only">Recap</span></th></tr>
-              </thead>
-              <tbody>
-                {s.games.map((g) => {
-                  const d = g.data;
-                  const won = d.status === 'final' && (d.us ?? 0) > (d.them ?? 0);
-                  const lost = d.status === 'final' && (d.us ?? 0) < (d.them ?? 0);
-                  return (
-                    <tr>
-                      <td>{fmtDate(d.date, { month: 'short', day: 'numeric' })}{d.label && <span class="label">{d.label}</span>}</td>
-                      <td>{d.home ? 'vs' : '@'} {d.opponent}{d.draft && <span class="label">Draft</span>}</td>
-                      <td>
-                        {d.status === 'final'
-                          ? <span class:list={['res', { won, lost }]}>{won ? 'W' : lost ? 'L' : 'T'} {d.us}-{d.them}</span>
-                          : <span class="muted">{d.time ?? 'Upcoming'}</span>}
-                      </td>
-                      <td>{d.recap && <a href={d.recap} class="recap">Recap</a>}</td>
-                    </tr>
-                  );
-                })}
-              </tbody>
-            </table>
-          </div>
-        ) : (
-          <p class="empty">{s.mascot} games start posting this season.</p>
-        )}
+    {sections.map((sp) => (
+      <section id={sp.id} class="sport" role={sections.length > 1 ? 'tabpanel' : undefined} aria-labelledby={`${sp.id}-title`} data-sport-panel={sp.id}>
+        <h2 id={`${sp.id}-title`} class="disp h-lg sport-title">{sp.label}{!sp.inSeason && <span class="season-note">Season over</span>}</h2>
+
+        <nav class="jump" aria-label={`${sp.label} schools`}>
+          {sp.schools.map((s) => <a href={`#${sp.id}-${s.id}`} class="btn btn-outline">{s.name}</a>)}
+        </nav>
+
+        {sp.schools.map((s) => (
+          <section id={`${sp.id}-${s.id}`} class="school" aria-labelledby={`${sp.id}-${s.id}-title`}>
+            <div class="school-head">
+              <h3 id={`${sp.id}-${s.id}-title`} class="disp h-md">{s.name} {s.mascot}</h3>
+              {s.record && <span class="record">{s.record}</span>}
+            </div>
+            {s.games.length > 0 ? (
+              <div class="table-wrap">
+                <table>
+                  <thead>
+                    <tr><th scope="col">Date</th><th scope="col">Opponent</th><th scope="col">Result</th><th scope="col"><span class="sr-only">Recap</span></th></tr>
+                  </thead>
+                  <tbody>
+                    {s.games.map((g) => {
+                      const d = g.data;
+                      const won = d.status === 'final' && (d.us ?? 0) > (d.them ?? 0);
+                      const lost = d.status === 'final' && (d.us ?? 0) < (d.them ?? 0);
+                      return (
+                        <tr>
+                          <td>{fmtDate(d.date, { month: 'short', day: 'numeric' })}{d.label && <span class="label">{d.label}</span>}</td>
+                          <td>{d.home ? 'vs' : '@'} {d.opponent}{d.draft && <span class="label">Draft</span>}</td>
+                          <td>
+                            {d.status === 'final'
+                              ? <span class:list={['res', { won, lost }]}>{won ? 'W' : lost ? 'L' : 'T'} {d.us}-{d.them}</span>
+                              : <span class="muted">{d.time ?? 'Upcoming'}</span>}
+                          </td>
+                          <td>{d.recap && <a href={d.recap} class="recap">Recap</a>}</td>
+                        </tr>
+                      );
+                    })}
+                  </tbody>
+                </table>
+              </div>
+            ) : (
+              <p class="empty">{s.mascot} {sp.label.toLowerCase()} games start posting this season.</p>
+            )}
+          </section>
+        ))}
       </section>
     ))}
+
+    {sections.length === 0 && <p class="empty">Scores start posting once the season starts.</p>}
   </section>
 </Base>
 
+<script>
+  // Tabs: without JS every sport shows, stacked, and the tab links jump to each one.
+  for (const tabs of document.querySelectorAll<HTMLElement>('[data-sport-tabs]')) {
+    const links = [...tabs.querySelectorAll<HTMLAnchorElement>('[data-tab]')];
+    const panels = [...document.querySelectorAll<HTMLElement>('[data-sport-panel]')];
+    const show = (id: string) => {
+      for (const l of links) l.setAttribute('aria-selected', String(l.dataset.tab === id));
+      for (const p of panels) p.hidden = p.dataset.sportPanel !== id;
+    };
+    const fromHash = () => {
+      const hash = decodeURIComponent(location.hash.slice(1));
+      // Hash can be a sport (#boys-soccer) or a school within one (#boys-soccer-lhhs).
+      // Old football links pointed at #lhhs, #sonora, #wchs.
+      if (['lhhs', 'sonora', 'wchs'].includes(hash)) return 'football';
+      const match = links.find((l) => hash === l.dataset.tab || hash.startsWith(`${l.dataset.tab}-`));
+      return match?.dataset.tab;
+    };
+    const jumpToOldSchoolLink = () => {
+      const hash = location.hash.slice(1);
+      if (['lhhs', 'sonora', 'wchs'].includes(hash)) document.getElementById(`football-${hash}`)?.scrollIntoView();
+    };
+    const initial = fromHash() ?? links.find((l) => l.getAttribute('aria-selected') === 'true')?.dataset.tab;
+    if (initial) show(initial);
+    jumpToOldSchoolLink();
+    for (const l of links) {
+      l.addEventListener('click', (e) => {
+        e.preventDefault();
+        show(l.dataset.tab!);
+        history.replaceState(null, '', `#${l.dataset.tab}`);
+      });
+    }
+    window.addEventListener('hashchange', () => {
+      const id = fromHash();
+      if (id) show(id);
+      jumpToOldSchoolLink();
+    });
+  }
+</script>
+
 <style>
+  .tabs { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+  .tabs a {
+    display: inline-flex; align-items: center; gap: 8px;
+    min-height: 44px; padding: 0 16px; border-radius: 999px;
+    border: 1px solid var(--line); color: var(--ink); font-weight: 600; text-decoration: none;
+  }
+  .tabs a[aria-selected='true'] { background: var(--ink); border-color: var(--ink); color: #fff; }
+  .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); }
+  .sport { padding-top: 24px; scroll-margin-top: 16px; }
+  .sport[hidden] { display: none; }
+  .sport-title { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin-bottom: 16px; }
+  .season-note { font-size: 14px; font-weight: 600; color: var(--muted); font-family: var(--font-body); }
   .jump { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
   .school { padding-top: 40px; scroll-margin-top: 16px; }
   .school-head { display: flex; align-items: baseline; gap: 16px; flex-wrap: wrap; margin-bottom: 16px; }

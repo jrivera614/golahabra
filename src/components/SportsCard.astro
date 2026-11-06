@@ -1,12 +1,15 @@
 ---
-import { getSchoolsWithGames, fmtDate } from '../lib/site';
-const schools = await getSchoolsWithGames();
+import { getSchoolsWithGames, getSportsOverview, fmtDate } from '../lib/site';
+// The card follows the season: football in the fall, then basketball or soccer once their games start.
+const { featured } = await getSportsOverview();
+const schools = await getSchoolsWithGames(featured.id);
+const sportName = featured.label.toLowerCase();
 ---
 <div class="sports" data-sports>
   <div class="head">
-    <span class="kicker on-dark">Friday night</span>
-    <h2 class="disp title">Local football</h2>
-    <p>La Habra, Sonora, and Whittier Christian, every week. Scores, recaps, and who stood out.</p>
+    <span class="kicker on-dark">{featured.kicker}</span>
+    <h2 class="disp title">Local {sportName}</h2>
+    <p>La Habra, Sonora, and Whittier Christian, every week. Scores, schedules, and recaps.</p>
   </div>
 
   <div class="toggle" role="group" aria-label="Pick a school">
@@ -26,7 +29,7 @@ const schools = await getSchoolsWithGames();
             <span class="note">Final · {fmtDate(g.date, { month: 'short', day: 'numeric' })}{s.record && ` · ${s.mascot} ${s.record}`}</span>
           </div>
         ) : (
-          <div class="board"><span class="note">{s.mascot} scores start posting this season.</span></div>
+          <div class="board"><span class="note">{s.mascot} {sportName} scores start posting this season.</span></div>
         )}
         {s.next && (
           <p class="next">
@@ -34,7 +37,8 @@ const schools = await getSchoolsWithGames();
             <span>{fmtDate(s.next.data.date, { weekday: 'short', month: 'short', day: 'numeric' })}{s.next.data.time && `, ${s.next.data.time}`} · {s.next.data.home ? 'vs' : '@'} {s.next.data.opponent}</span>
           </p>
         )}
-        <a href={`/sports/#${s.id}`} class="btn btn-light">See {s.mascot} games</a>
+        <a href={`/sports/#${featured.id}-${s.id}`} class="btn btn-light">See {s.mascot} games</a>
+        <a href="/sports/" class="all-link">All sports</a>
       </div>
     );
   })}
@@ -86,5 +90,6 @@ const schools = await getSchoolsWithGames();
   .dim { color: var(--dark-muted); }
   .score { font-size: 28px; }
   .note { font-size: 13px; color: var(--dark-muted); }
+  .all-link { color: var(--dark-muted); font-size: 14px; font-weight: 600; text-decoration: underline; }
   .next { margin: 0; display: flex; flex-direction: column; gap: 4px; font-size: 16px; font-weight: 600; }
 </style>

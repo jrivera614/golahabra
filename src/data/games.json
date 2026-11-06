@@ -2,6 +2,7 @@
   {
     "id": "lhhs-2026-08-21",
     "school": "lhhs",
+    "sport": "football",
     "opponent": "Upland",
     "date": "2026-08-21",
     "home": false,
@@ -12,6 +13,7 @@
   {
     "id": "lhhs-2026-08-28",
     "school": "lhhs",
+    "sport": "football",
     "opponent": "Northview",
     "date": "2026-08-28",
     "home": true,
@@ -22,6 +24,7 @@
   {
     "id": "lhhs-2026-09-04",
     "school": "lhhs",
+    "sport": "football",
     "opponent": "Paraclete",
     "date": "2026-09-04",
     "home": true,
@@ -32,6 +35,7 @@
   {
     "id": "lhhs-2026-09-11",
     "school": "lhhs",
+    "sport": "football",
     "opponent": "Mira Costa",
     "date": "2026-09-11",
     "home": false,
@@ -42,6 +46,7 @@
   {
     "id": "lhhs-2026-09-18",
     "school": "lhhs",
+    "sport": "football",
     "opponent": "Orange Vista",
     "date": "2026-09-18",
     "home": true,
@@ -52,6 +57,7 @@
   {
     "id": "lhhs-2026-10-02",
     "school": "lhhs",
+    "sport": "football",
     "opponent": "Capistrano Valley",
     "date": "2026-10-02",
     "home": false,
@@ -63,6 +69,7 @@
   {
     "id": "lhhs-2026-10-09",
     "school": "lhhs",
+    "sport": "football",
     "opponent": "Villa Park",
     "date": "2026-10-09",
     "home": true,
@@ -74,6 +81,7 @@
   {
     "id": "lhhs-2026-10-16",
     "school": "lhhs",
+    "sport": "football",
     "opponent": "Crean Lutheran",
     "date": "2026-10-16",
     "home": true,
@@ -85,6 +93,7 @@
   {
     "id": "lhhs-2026-10-22",
     "school": "lhhs",
+    "sport": "football",
     "opponent": "Tustin",
     "date": "2026-10-22",
     "home": true,
@@ -96,6 +105,7 @@
   {
     "id": "lhhs-2026-10-30",
     "school": "lhhs",
+    "sport": "football",
     "opponent": "Corona del Mar",
     "date": "2026-10-30",
     "home": true,
@@ -107,6 +117,7 @@
   {
     "id": "lhhs-2026-11-05",
     "school": "lhhs",
+    "sport": "football",
     "opponent": "Etiwanda",
     "date": "2026-11-05",
     "time": "7:00 pm",
@@ -117,6 +128,7 @@
   {
     "id": "sonora-2026-08-21",
     "school": "sonora",
+    "sport": "football",
     "opponent": "Cabrillo",
     "date": "2026-08-21",
     "home": true,
@@ -127,6 +139,7 @@
   {
     "id": "sonora-2026-08-28",
     "school": "sonora",
+    "sport": "football",
     "opponent": "Rosemead",
     "date": "2026-08-28",
     "home": false,
@@ -137,6 +150,7 @@
   {
     "id": "sonora-2026-09-04",
     "school": "sonora",
+    "sport": "football",
     "opponent": "Walnut",
     "date": "2026-09-04",
     "home": false,
@@ -147,6 +161,7 @@
   {
     "id": "sonora-2026-09-11",
     "school": "sonora",
+    "sport": "football",
     "opponent": "Saddleback",
     "date": "2026-09-11",
     "home": true,
@@ -157,6 +172,7 @@
   {
     "id": "sonora-2026-09-18",
     "school": "sonora",
+    "sport": "football",
     "opponent": "Sunny Hills",
     "date": "2026-09-18",
     "home": false,
@@ -167,6 +183,7 @@
   {
     "id": "sonora-2026-10-02",
     "school": "sonora",
+    "sport": "football",
     "opponent": "Fountain Valley",
     "date": "2026-10-02",
     "home": true,
@@ -178,6 +195,7 @@
   {
     "id": "sonora-2026-10-09",
     "school": "sonora",
+    "sport": "football",
     "opponent": "Westminster",
     "date": "2026-10-09",
     "home": false,
@@ -189,6 +207,7 @@
   {
     "id": "sonora-2026-10-15",
     "school": "sonora",
+    "sport": "football",
     "opponent": "Calvary Chapel",
     "date": "2026-10-15",
     "home": false,
@@ -200,6 +219,7 @@
   {
     "id": "sonora-2026-10-23",
     "school": "sonora",
+    "sport": "football",
     "opponent": "Woodbridge",
     "date": "2026-10-23",
     "home": true,
@@ -211,6 +231,7 @@
   {
     "id": "sonora-2026-10-30",
     "school": "sonora",
+    "sport": "football",
     "opponent": "Valencia",
     "date": "2026-10-30",
     "home": false,
@@ -222,6 +243,7 @@
   {
     "id": "sonora-2026-11-06",
     "school": "sonora",
+    "sport": "football",
     "opponent": "Desert Hot Springs",
     "date": "2026-11-06",
     "time": "7:00 pm",
@@ -232,6 +254,7 @@
   {
     "id": "wchs-2026-08-22",
     "school": "wchs",
+    "sport": "football",
     "opponent": "La Sierra",
     "date": "2026-08-22",
     "home": false,
@@ -242,6 +265,7 @@
   {
     "id": "wchs-2026-08-28",
     "school": "wchs",
+    "sport": "football",
     "opponent": "Nuview Bridge",
     "date": "2026-08-28",
     "home": true,
@@ -252,6 +276,7 @@
   {
     "id": "wchs-2026-09-04",
     "school": "wchs",
+    "sport": "football",
     "opponent": "Ontario Christian",
     "date": "2026-09-04",
     "home": false,
@@ -262,6 +287,7 @@
   {
     "id": "wchs-2026-09-11",
     "school": "wchs",
+    "sport": "football",
     "opponent": "Santa Ana",
     "date": "2026-09-11",
     "home": true,
@@ -272,6 +298,7 @@
   {
     "id": "wchs-2026-09-18",
     "school": "wchs",
+    "sport": "football",
     "opponent": "Desert Mirage",
     "date": "2026-09-18",
     "home": false,
@@ -282,6 +309,7 @@
   {
     "id": "wchs-2026-10-02",
     "school": "wchs",
+    "sport": "football",
     "opponent": "Notre Dame",
     "date": "2026-10-02",
     "home": true,
@@ -293,6 +321,7 @@
   {
     "id": "wchs-2026-10-09",
     "school": "wchs",
+    "sport": "football",
     "opponent": "Vasquez",
     "date": "2026-10-09",
     "home": false,
@@ -304,6 +333,7 @@
   {
     "id": "wchs-2026-10-16",
     "school": "wchs",
+    "sport": "football",
     "opponent": "Arrowhead Christian",
     "date": "2026-10-16",
     "home": false,
@@ -315,6 +345,7 @@
   {
     "id": "wchs-2026-10-23",
     "school": "wchs",
+    "sport": "football",
     "opponent": "Riverside Prep",
     "date": "2026-10-23",
     "home": false,
@@ -326,6 +357,7 @@
   {
     "id": "wchs-2026-10-30",
     "school": "wchs",
+    "sport": "football",
     "opponent": "Webb",
     "date": "2026-10-30",
     "home": true,
@@ -337,11 +369,391 @@
   {
     "id": "wchs-2026-11-06",
     "school": "wchs",
+    "sport": "football",
     "opponent": "La Sierra",
     "date": "2026-11-06",
     "time": "7:00 pm",
     "home": true,
     "status": "upcoming",
     "label": "CIF-SS playoffs"
+  },
+  {
+    "id": "lhhs-girls-soccer-2026-12-03",
+    "school": "lhhs",
+    "sport": "girls-soccer",
+    "opponent": "Katella",
+    "date": "2026-12-03",
+    "time": "3:00 pm",
+    "home": false,
+    "status": "upcoming"
+  },
+  {
+    "id": "lhhs-girls-soccer-2026-12-04",
+    "school": "lhhs",
+    "sport": "girls-soccer",
+    "opponent": "Paramount",
+    "date": "2026-12-04",
+    "time": "3:00 pm",
+    "home": true,
+    "status": "upcoming"
+  },
+  {
+    "id": "lhhs-girls-soccer-2026-12-07",
+    "school": "lhhs",
+    "sport": "girls-soccer",
+    "opponent": "Rosemead",
+    "date": "2026-12-07",
+    "time": "5:00 pm",
+    "home": true,
+    "status": "upcoming"
+  },
+  {
+    "id": "lhhs-girls-soccer-2026-12-09",
+    "school": "lhhs",
+    "sport": "girls-soccer",
+    "opponent": "Troy",
+    "date": "2026-12-09",
+    "time": "5:00 pm",
+    "home": true,
+    "status": "upcoming"
+  },
+  {
+    "id": "lhhs-girls-soccer-2026-12-10",
+    "school": "lhhs",
+    "sport": "girls-soccer",
+    "opponent": "Temple City",
+    "date": "2026-12-10",
+    "time": "3:45 pm",
+    "home": false,
+    "status": "upcoming"
+  },
+  {
+    "id": "lhhs-girls-soccer-2026-12-14",
+    "school": "lhhs",
+    "sport": "girls-soccer",
+    "opponent": "Anaheim",
+    "date": "2026-12-14",
+    "time": "5:00 pm",
+    "home": true,
+    "status": "upcoming"
+  },
+  {
+    "id": "lhhs-girls-soccer-2026-12-17",
+    "school": "lhhs",
+    "sport": "girls-soccer",
+    "opponent": "Sonora",
+    "date": "2026-12-17",
+    "time": "5:00 pm",
+    "home": true,
+    "status": "upcoming"
+  },
+  {
+    "id": "lhhs-girls-soccer-2026-12-22",
+    "school": "lhhs",
+    "sport": "girls-soccer",
+    "opponent": "Ontario",
+    "date": "2026-12-22",
+    "time": "10:00 am",
+    "home": true,
+    "status": "upcoming"
+  },
+  {
+    "id": "lhhs-girls-soccer-2026-12-23",
+    "school": "lhhs",
+    "sport": "girls-soccer",
+    "opponent": "Sunny Hills",
+    "date": "2026-12-23",
+    "time": "11:00 am",
+    "home": false,
+    "status": "upcoming"
+  },
+  {
+    "id": "lhhs-girls-soccer-2026-12-29",
+    "school": "lhhs",
+    "sport": "girls-soccer",
+    "opponent": "Fullerton",
+    "date": "2026-12-29",
+    "time": "10:00 am",
+    "home": false,
+    "status": "upcoming"
+  },
+  {
+    "id": "sonora-boys-basketball-2026-11-17",
+    "school": "sonora",
+    "sport": "boys-basketball",
+    "opponent": "Culver City",
+    "date": "2026-11-17",
+    "time": "7:00 pm",
+    "home": true,
+    "status": "upcoming"
+  },
+  {
+    "id": "sonora-boys-basketball-2026-12-03",
+    "school": "sonora",
+    "sport": "boys-basketball",
+    "opponent": "O'Connor",
+    "date": "2026-12-03",
+    "time": "6:00 pm",
+    "home": false,
+    "status": "upcoming"
+  },
+  {
+    "id": "sonora-boys-basketball-2026-12-04",
+    "school": "sonora",
+    "sport": "boys-basketball",
+    "opponent": "Higley",
+    "date": "2026-12-04",
+    "time": "6:00 pm",
+    "home": false,
+    "status": "upcoming"
+  },
+  {
+    "id": "sonora-boys-basketball-2026-12-05",
+    "school": "sonora",
+    "sport": "boys-basketball",
+    "opponent": "Ironwood",
+    "date": "2026-12-05",
+    "time": "1:00 pm",
+    "home": false,
+    "status": "upcoming"
+  },
+  {
+    "id": "sonora-boys-basketball-2026-12-18",
+    "school": "sonora",
+    "sport": "boys-basketball",
+    "opponent": "Diamond Bar",
+    "date": "2026-12-18",
+    "home": true,
+    "status": "upcoming"
+  },
+  {
+    "id": "sonora-boys-basketball-2026-12-19",
+    "school": "sonora",
+    "sport": "boys-basketball",
+    "opponent": "Mater Dei",
+    "date": "2026-12-19",
+    "time": "7:30 pm",
+    "home": true,
+    "status": "upcoming"
+  },
+  {
+    "id": "sonora-boys-basketball-2026-12-22",
+    "school": "sonora",
+    "sport": "boys-basketball",
+    "opponent": "Cerritos",
+    "date": "2026-12-22",
+    "time": "6:00 pm",
+    "home": true,
+    "status": "upcoming"
+  },
+  {
+    "id": "sonora-boys-basketball-2026-12-23",
+    "school": "sonora",
+    "sport": "boys-basketball",
+    "opponent": "Whittier",
+    "date": "2026-12-23",
+    "time": "6:00 pm",
+    "home": false,
+    "status": "upcoming"
+  },
+  {
+    "id": "sonora-boys-soccer-2026-12-02",
+    "school": "sonora",
+    "sport": "boys-soccer",
+    "opponent": "Glenn",
+    "date": "2026-12-02",
+    "time": "3:00 pm",
+    "home": true,
+    "status": "upcoming"
+  },
+  {
+    "id": "sonora-boys-soccer-2026-12-04",
+    "school": "sonora",
+    "sport": "boys-soccer",
+    "opponent": "Loara",
+    "date": "2026-12-04",
+    "time": "3:00 pm",
+    "home": false,
+    "status": "upcoming"
+  },
+  {
+    "id": "sonora-boys-soccer-2026-12-07",
+    "school": "sonora",
+    "sport": "boys-soccer",
+    "opponent": "Northwood",
+    "date": "2026-12-07",
+    "time": "3:00 pm",
+    "home": true,
+    "status": "upcoming"
+  },
+  {
+    "id": "sonora-girls-soccer-2026-12-01",
+    "school": "sonora",
+    "sport": "girls-soccer",
+    "opponent": "Wilson",
+    "date": "2026-12-01",
+    "time": "5:15 pm",
+    "home": false,
+    "status": "upcoming"
+  },
+  {
+    "id": "sonora-girls-soccer-2026-12-03",
+    "school": "sonora",
+    "sport": "girls-soccer",
+    "opponent": "Santa Fe",
+    "date": "2026-12-03",
+    "time": "5:00 pm",
+    "home": false,
+    "status": "upcoming"
+  },
+  {
+    "id": "sonora-girls-soccer-2026-12-08",
+    "school": "sonora",
+    "sport": "girls-soccer",
+    "opponent": "Brea Olinda",
+    "date": "2026-12-08",
+    "time": "4:45 pm",
+    "home": false,
+    "status": "upcoming"
+  },
+  {
+    "id": "sonora-girls-soccer-2026-12-10",
+    "school": "sonora",
+    "sport": "girls-soccer",
+    "opponent": "Diamond Bar",
+    "date": "2026-12-10",
+    "time": "6:30 pm",
+    "home": true,
+    "status": "upcoming"
+  },
+  {
+    "id": "sonora-girls-soccer-2026-12-17",
+    "school": "sonora",
+    "sport": "girls-soccer",
+    "opponent": "La Habra",
+    "date": "2026-12-17",
+    "time": "5:00 pm",
+    "home": false,
+    "status": "upcoming"
+  },
+  {
+    "id": "sonora-girls-soccer-2026-12-22",
+    "school": "sonora",
+    "sport": "girls-soccer",
+    "opponent": "La Mirada",
+    "date": "2026-12-22",
+    "time": "5:30 pm",
+    "home": true,
+    "status": "upcoming"
+  },
+  {
+    "id": "sonora-girls-soccer-2026-12-29",
+    "school": "sonora",
+    "sport": "girls-soccer",
+    "opponent": "Lynwood",
+    "date": "2026-12-29",
+    "time": "11:00 am",
+    "home": true,
+    "status": "upcoming"
+  },
+  {
+    "id": "sonora-girls-soccer-2026-12-30",
+    "school": "sonora",
+    "sport": "girls-soccer",
+    "opponent": "La Serna",
+    "date": "2026-12-30",
+    "time": "1:00 pm",
+    "home": false,
+    "status": "upcoming"
+  },
+  {
+    "id": "wchs-boys-basketball-2026-11-17",
+    "school": "wchs",
+    "sport": "boys-basketball",
+    "opponent": "Santa Fe",
+    "date": "2026-11-17",
+    "time": "3:30 pm",
+    "home": false,
+    "status": "upcoming"
+  },
+  {
+    "id": "wchs-boys-basketball-2026-12-15",
+    "school": "wchs",
+    "sport": "boys-basketball",
+    "opponent": "Bellflower",
+    "date": "2026-12-15",
+    "time": "7:00 pm",
+    "home": true,
+    "status": "upcoming"
+  },
+  {
+    "id": "wchs-girls-basketball-2026-11-18",
+    "school": "wchs",
+    "sport": "girls-basketball",
+    "opponent": "Santa Fe",
+    "date": "2026-11-18",
+    "time": "6:00 pm",
+    "home": true,
+    "status": "upcoming"
+  },
+  {
+    "id": "wchs-girls-basketball-2026-12-08",
+    "school": "wchs",
+    "sport": "girls-basketball",
+    "opponent": "Linfield Christian",
+    "date": "2026-12-08",
+    "time": "6:00 pm",
+    "home": true,
+    "status": "upcoming"
+  },
+  {
+    "id": "wchs-girls-basketball-2026-12-10",
+    "school": "wchs",
+    "sport": "girls-basketball",
+    "opponent": "Anaheim",
+    "date": "2026-12-10",
+    "time": "6:30 pm",
+    "home": true,
+    "status": "upcoming"
+  },
+  {
+    "id": "wchs-girls-basketball-2026-12-11",
+    "school": "wchs",
+    "sport": "girls-basketball",
+    "opponent": "Upland",
+    "date": "2026-12-11",
+    "time": "5:15 pm",
+    "home": false,
+    "status": "upcoming"
+  },
+  {
+    "id": "wchs-girls-basketball-2026-12-19",
+    "school": "wchs",
+    "sport": "girls-basketball",
+    "opponent": "Foothill",
+    "date": "2026-12-19",
+    "time": "6:00 pm",
+    "home": true,
+    "status": "upcoming"
+  },
+  {
+    "id": "wchs-girls-basketball-2026-12-22",
+    "school": "wchs",
+    "sport": "girls-basketball",
+    "opponent": "Fullerton",
+    "date": "2026-12-22",
+    "time": "6:00 pm",
+    "home": true,
+    "status": "upcoming"
+  },
+  {
+    "id": "wchs-girls-basketball-2026-12-29",
+    "school": "wchs",
+    "sport": "girls-basketball",
+    "opponent": "Garden Grove",
+    "date": "2026-12-29",
+    "time": "5:00 pm",
+    "home": true,
+    "status": "upcoming"
   }
 ]

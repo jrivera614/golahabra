@@ -11,7 +11,7 @@ All content is plain files. Anything with `"draft": true` (or `draft: true` in a
 | Restaurants | `src/data/restaurants.json` | `id` must be unique (e.g. `taqueria-el-sol`). `tags` must be one of the listed values in `src/content.config.ts`. Optional `photo` (put the file in `public/photos/` and use `/photos/name.jpg`). |
 | News | `src/content/news/<slug>.md` | Filename becomes the URL. Front matter: `title`, `dek`, `date`, `category`, optional `image`. |
 | Events | `src/data/events.json` | Past events drop off automatically. |
-| Football | `src/data/games.json` | `school` is `lhhs`, `sonora`, or `wchs`. Use `status: "final"` with `us`/`them` scores, or `"upcoming"`. |
+| Sports | `src/data/games.json` | `school` is `lhhs`, `sonora`, or `wchs`. `sport` is `football`, `boys-basketball`, `girls-basketball`, `boys-soccer`, or `girls-soccer`. Use `status: "final"` with `us`/`them` scores, or `"upcoming"`. The home page card shows whichever sport is in season. To add a sport, add it to `SPORTS` in `src/lib/site.ts` and to the `sport` enum in `src/content.config.ts`. |
 
 If an entry doesn't match the schema, the build fails instead of shipping a broken page.
 

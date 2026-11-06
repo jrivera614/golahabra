@@ -34,13 +34,19 @@ Go La Habra (golahabra.com) is an independent local site for La Habra, CA, run b
 
 **Events:** best source is the city's "Mayor's Community Calendar" PDF, attached to each council agenda (search `Mayor's Community Calendar` + the agenda date). Also: lahabraca.gov, lahabrachamber.com, school sites, and organizer pages. Patch and Burbio are leads only; confirm with an official page before adding.
 
-**Sports:** football for La Habra (`lhhs`), Sonora (`sonora`), Whittier Christian (`wchs`). MaxPreps is the reference, but from the cloud it can serve stale pages. Confirm a final score with MaxPreps plus one more source (a MaxPreps game recap, OC Sports Zone, CIF-SS brackets, or the school's account), or with the CIF-SS bracket alone. If sources disagree or you can't confirm, don't post it.
+**Sports:** La Habra (`lhhs`), Sonora (`sonora`), Whittier Christian (`wchs`) in these sports (the `sport` field):
+- Fall: `football`
+- Winter: `boys-basketball`, `girls-basketball`, `boys-soccer`, `girls-soccer`
+
+Cover a sport the same way all season: add its schedule once the school or MaxPreps posts it, post confirmed final scores, and add CIF-SS playoff matchups. The site picks what's "in season" on its own (any upcoming game, or a final in the last 10 days), so the home page card switches from football to basketball by itself once football is done. Only playoff and other big home games go on the events calendar, not every regular-season game.
+
+MaxPreps is the reference, but from the cloud it can serve stale pages. Confirm a final score with MaxPreps plus one more source (a MaxPreps game recap, OC Sports Zone, CIF-SS brackets, or the school's account), or with the CIF-SS bracket alone. If sources disagree or you can't confirm, don't post it. Soccer can end in a tie; enter it as equal `us` and `them`.
 
 **Tips inbox:** mail to hello@golahabra.com forwards to Justin's Gmail. Search Gmail for `to:hello@golahabra.com` newer than the last log entry. Only read; never reply.
 
 ## Content formats
 - **Events** (`src/data/events.json`): `{ "id", "name", "date": "YYYY-MM-DD", "time"?, "place", "link"?, "source"? }`. `id` is a unique slug. Add `source` (the URL you got it from). Past events drop off automatically. Don't remove or change events you didn't add unless they were canceled per an official source.
-- **Games** (`src/data/games.json`): see existing entries. `status` is `final` (with `us`/`them`) or `upcoming` (with `time`). `label` is `League` or `CIF-SS playoffs`. When a team's season ends, leave its games as they are and note it in the log.
+- **Games** (`src/data/games.json`): see existing entries. Every game needs `sport` (one of the values above). `id` is `<school>-<sport>-<YYYY-MM-DD>` for new entries (older football ids skip the sport). `status` is `final` (with `us`/`them`) or `upcoming` (with `time`). `label` is `League` or `CIF-SS playoffs`. When a team's season ends, leave its games as they are and note it in the log.
 - **News** (`src/content/news/<slug>.md`): front matter `title`, `dek`, `date`, `category` (one of the values in `src/content.config.ts`), `author: Go La Habra`, `draft: true`. End the post with a Sources line linking where facts came from.
 - Schemas live in `src/content.config.ts`. A bad entry fails the build, which is the point.
 
