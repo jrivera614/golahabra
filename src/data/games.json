@@ -120,10 +120,11 @@
     "sport": "football",
     "opponent": "Etiwanda",
     "date": "2026-11-05",
-    "time": "7:00 pm",
     "home": true,
-    "status": "upcoming",
-    "label": "CIF-SS playoffs"
+    "status": "final",
+    "label": "CIF-SS playoffs",
+    "us": 42,
+    "them": 35
   },
   {
     "id": "sonora-2026-08-21",

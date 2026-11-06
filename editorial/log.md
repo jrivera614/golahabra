@@ -40,3 +40,8 @@ Format:
 - Published: 38 winter games from MaxPreps 2026-27 pages: Sonora boys basketball, WCHS boys and girls basketball, LHHS and Sonora girls soccer, Sonora boys soccer (first 3 games only).
 - Skipped: tournament games where home/away was unclear. Schedules not posted yet: LHHS boys and girls basketball, Sonora girls basketball, LHHS boys soccer, WCHS boys and girls soccer.
 - Leads / follow-ups: Saturday scores task updated (Justin approved) to cover all five sports, add schedules as they post, and add playoff games. Fill in missing winter schedules as they post.
+
+## 2026-11-06 · La Habra playoff score (Justin request)
+- Published: La Habra 42, Etiwanda 35 (CIF-SS D4 first round, Thu 11/5). Highlanders now 6-5. Source: OC Sports Zone; MaxPreps and the CIF-SS bracket hadn't posted it yet. Justin approved posting on that source (he was at the game).
+- Skipped: next game not added. La Habra plays the Cathedral vs Cypress winner next Friday (11/13); opponent, time and site not set yet.
+- Leads / follow-ups: Saturday scores run handles Sonora vs Desert Hot Springs and WCHS vs La Sierra (Fri 11/6) and La Habra's quarterfinal matchup.
