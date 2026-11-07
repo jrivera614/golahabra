@@ -374,10 +374,21 @@
     "sport": "football",
     "opponent": "La Sierra",
     "date": "2026-11-06",
-    "time": "7:00 pm",
     "home": true,
+    "status": "final",
+    "label": "CIF-SS playoffs",
+    "us": 40,
+    "them": 36
+  },
+  {
+    "id": "wchs-football-2026-11-13",
+    "school": "wchs",
+    "sport": "football",
+    "opponent": "Whittier",
+    "date": "2026-11-13",
+    "home": false,
     "status": "upcoming",
-    "label": "CIF-SS playoffs"
+    "label": "CIF-SS playoffs, Quarterfinals"
   },
   {
     "id": "lhhs-girls-soccer-2026-12-03",

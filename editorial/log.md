@@ -51,3 +51,11 @@ Format:
 - Skipped: Whittier Christian vs La Sierra (D13 first round). WCHS won, but sources disagree on the score: LA Times and SI's first-round roundup say 40-36, SI's statewide final-scores page says 50-20. Left as upcoming until MaxPreps or the CIF-SS bracket settles it.
 - Skipped: La Habra's quarterfinal. Cathedral beat Cypress 41-21, so La Habra plays Cathedral Fri 11/13, but the host (set by the Nov 1 CIF-SS coin flip) isn't confirmed yet. WCHS quarterfinal opponent not found yet.
 - Leads / follow-ups: Saturday scores run should settle the WCHS score and add both quarterfinals once sites are posted.
+
+## 2026-11-07 · Saturday scores
+- Published: Whittier Christian 40, La Sierra 36 (CIF-SS D13 first round, Fri 11/6). Heralds now 8-3. Confirmed by the CIF-SS scores site (scores.cifss.org), LA Times (via Yahoo) and SI's first-round roundup. SI's statewide final-scores page still says 50-20; treated as an error. MaxPreps not updated (pages stale from the cloud).
+- Published: WCHS quarterfinal added: at Whittier, Fri 11/13 (CIF-SS D13 quarterfinals), games and events. Away per the CIF-SS scores site; date per CIF-SS Press Release #13. Kickoff time not posted, left blank (CIF default is 7 pm unless changed).
+- Skipped: La Habra vs Cathedral D4 quarterfinal (Fri 11/13). Host and time still not confirmed by any 2026 source. Searches only turned up last year's La Habra-Cathedral game.
+- Skipped: winter schedules still missing for LHHS boys and girls basketball, Sonora girls basketball, LHHS boys soccer, WCHS boys and girls soccer. MaxPreps pages from the cloud showed old seasons; 26-27 URLs failed.
+- Seasons ended: Sonora football (9-2), noted last run.
+- Leads / follow-ups: add La Habra at/vs Cathedral once the host is posted; add WCHS kickoff time; post 11/13 quarterfinal scores.
