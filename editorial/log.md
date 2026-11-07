@@ -45,3 +45,9 @@ Format:
 - Published: La Habra 42, Etiwanda 35 (CIF-SS D4 first round, Thu 11/5). Highlanders now 6-5. Source: OC Sports Zone; MaxPreps and the CIF-SS bracket hadn't posted it yet. Justin approved posting on that source (he was at the game).
 - Skipped: next game not added. La Habra plays the Cathedral vs Cypress winner next Friday (11/13); opponent, time and site not set yet.
 - Leads / follow-ups: Saturday scores run handles Sonora vs Desert Hot Springs and WCHS vs La Sierra (Fri 11/6) and La Habra's quarterfinal matchup.
+
+## 2026-11-07 · Friday playoff scores (Justin request)
+- Published: Desert Hot Springs 31, Sonora 0 (CIF-SS D10 first round, Fri 11/6). Sonora's season ends at 9-2. Confirmed by OC Sports Zone, LA Times (via Yahoo) and SI; MaxPreps not posted yet. Posted early because Justin said to update now.
+- Skipped: Whittier Christian vs La Sierra (D13 first round). WCHS won, but sources disagree on the score: LA Times and SI's first-round roundup say 40-36, SI's statewide final-scores page says 50-20. Left as upcoming until MaxPreps or the CIF-SS bracket settles it.
+- Skipped: La Habra's quarterfinal. Cathedral beat Cypress 41-21, so La Habra plays Cathedral Fri 11/13, but the host (set by the Nov 1 CIF-SS coin flip) isn't confirmed yet. WCHS quarterfinal opponent not found yet.
+- Leads / follow-ups: Saturday scores run should settle the WCHS score and add both quarterfinals once sites are posted.

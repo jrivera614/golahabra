@@ -247,10 +247,11 @@
     "sport": "football",
     "opponent": "Desert Hot Springs",
     "date": "2026-11-06",
-    "time": "7:00 pm",
     "home": true,
-    "status": "upcoming",
-    "label": "CIF-SS playoffs"
+    "status": "final",
+    "label": "CIF-SS playoffs",
+    "us": 0,
+    "them": 31
   },
   {
     "id": "wchs-2026-08-22",
