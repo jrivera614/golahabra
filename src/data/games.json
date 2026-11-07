@@ -127,6 +127,16 @@
     "them": 35
   },
   {
+    "id": "lhhs-football-2026-11-13",
+    "school": "lhhs",
+    "sport": "football",
+    "opponent": "Cathedral",
+    "date": "2026-11-13",
+    "home": true,
+    "status": "upcoming",
+    "label": "CIF-SS playoffs, Quarterfinals"
+  },
+  {
     "id": "sonora-2026-08-21",
     "school": "sonora",
     "sport": "football",

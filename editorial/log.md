@@ -59,3 +59,7 @@ Format:
 - Skipped: winter schedules still missing for LHHS boys and girls basketball, Sonora girls basketball, LHHS boys soccer, WCHS boys and girls soccer. MaxPreps pages from the cloud showed old seasons; 26-27 URLs failed.
 - Seasons ended: Sonora football (9-2), noted last run.
 - Leads / follow-ups: add La Habra at/vs Cathedral once the host is posted; add WCHS kickoff time; post 11/13 quarterfinal scores.
+
+## 2026-11-07 · La Habra quarterfinal host (Justin request)
+- Published: Cathedral at La Habra, Fri 11/13 (CIF-SS D4 quarterfinals), games and events. Host per Justin; date per CIF-SS Press Release #13. Kickoff time not posted, left blank.
+- Leads / follow-ups: add LHHS and WCHS kickoff times once posted.
