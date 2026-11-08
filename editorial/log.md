@@ -63,3 +63,7 @@ Format:
 ## 2026-11-07 · La Habra quarterfinal host (Justin request)
 - Published: Cathedral at La Habra, Fri 11/13 (CIF-SS D4 quarterfinals), games and events. Host per Justin; date per CIF-SS Press Release #13. Kickoff time not posted, left blank.
 - Leads / follow-ups: add LHHS and WCHS kickoff times once posted.
+
+## 2026-11-07 · La Habra kickoff time (Justin request)
+- Published: 7:00 pm kickoff for Cathedral at La Habra (Fri 11/13), games and events. Time per Justin.
+- Leads / follow-ups: WCHS at Whittier kickoff time still not posted.
