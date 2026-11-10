@@ -67,3 +67,9 @@ Format:
 ## 2026-11-07 · La Habra kickoff time (Justin request)
 - Published: 7:00 pm kickoff for Cathedral at La Habra (Fri 11/13), games and events. Time per Justin.
 - Leads / follow-ups: WCHS at Whittier kickoff time still not posted.
+
+## 2026-11-10 · weekly council check
+- Published: nothing.
+- Drafted: nothing. No council meeting Mon 11/9 (2nd Monday; Agenda Center lists no regular or special meeting). Last meeting Nov 2, next expected Mon 11/16 (agenda not posted yet).
+- Skipped: official votes. Nov 2 minutes not posted yet, so the nitrous oxide draft (still draft: true) gets no "Official votes" section this run.
+- Leads / follow-ups: Nov 2 minutes expected with the 11/16 agenda; add the Ordinance CC 2026-09 vote then. Next run (Tue 11/17) should draft the 11/16 recap and pull its Mayor's Community Calendar.
