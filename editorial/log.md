@@ -73,3 +73,10 @@ Format:
 - Drafted: nothing. No council meeting Mon 11/9 (2nd Monday; Agenda Center lists no regular or special meeting). Last meeting Nov 2, next expected Mon 11/16 (agenda not posted yet).
 - Skipped: official votes. Nov 2 minutes not posted yet, so the nitrous oxide draft (still draft: true) gets no "Official votes" section this run.
 - Leads / follow-ups: Nov 2 minutes expected with the 11/16 agenda; add the Ordinance CC 2026-09 vote then. Next run (Tue 11/17) should draft the 11/16 recap and pull its Mayor's Community Calendar.
+
+## 2026-11-11 · weekly editor run
+- Published: no new events. Calendar already has everything confirmable for the next 6 weeks.
+- Drafted: "Medrano and Gomez lead in La Habra council race" (City Hall, unofficial OC Registrar count as of Tue 11/10 4:47 pm, Run 15) and "La Habra and Whittier Christian play for a CIF-SS semifinal spot Friday" (Sports). Both draft: true, awaiting Justin.
+- Skipped: Nov 2 Mayor's Community Calendar (already checked last run, no entries). Nov 16 council agenda not posted yet. Chamber calendar has nothing new after the 11/12 ConnectUp (December is empty). City tree lighting page still shows 2025 only; Tamale Festival 12/5 page still has no hours. City calendar (lahabraca.gov/Calendar.aspx) blocks fetching from the cloud.
+- Tips inbox: no mail to hello@golahabra.com since 11/4.
+- Leads / follow-ups: update the election draft with each new OC count (weekday 5 pm runs) and once certified; Pritchard trails Gomez by about 2,000 votes. WCHS kickoff time at Whittier still not posted. Post 11/13 quarterfinal scores. Add tree lighting and Tamale Festival hours once posted. Nitrous oxide draft still waiting on Nov 2 minutes.
