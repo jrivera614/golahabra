@@ -4,7 +4,7 @@ dek: "Two seats were on the Nov. 3 ballot. Here's where the count stands, and wh
 date: 2026-11-11
 category: City Hall
 author: Go La Habra
-draft: true
+draft: false
 ---
 
 Mayor José Medrano and Councilmember Jim Gomez are out in front in the race for two La Habra City Council seats, based on the latest unofficial count from the Orange County Registrar of Voters.

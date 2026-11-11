@@ -4,7 +4,7 @@ dek: "The Highlanders host Cathedral at 7 pm. The Heralds head to Whittier. Here
 date: 2026-11-11
 category: Sports
 author: Go La Habra
-draft: true
+draft: false
 ---
 
 Two local football teams are still alive in the CIF Southern Section playoffs, and both play quarterfinal games this Friday, Nov. 13.
