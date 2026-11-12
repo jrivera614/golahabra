@@ -84,3 +84,7 @@ Format:
 ## 2026-11-11 · Justin approval
 - Published: "Medrano and Gomez lead in La Habra council race" and "La Habra and Whittier Christian play for a CIF-SS semifinal spot Friday" (Justin replied "go ahead" to both, no edits).
 - Leads / follow-ups: election story still needs updates as the OC count moves and once certified. Post 11/13 quarterfinal scores.
+
+## 2026-11-12 · daily city scan
+- Nothing new on the city site (first scan; checked Nov 9 to 12). News Flash still shows only the Dec 2025 library closure; latest press release is 10/20 (OTS grant). Destiny Agenda: Nov 16 council agenda not posted yet; Planning Commission 11/9 and Housing Authority 11/16 cancelled (routine). Homepage lists council Mon 11/16, Planning Commission Mon 11/23, City Hall closed Wed 11/25 to Thu 11/26 for the holiday.
+- Leads / follow-ups: check for the Nov 16 council agenda (and Nov 2 minutes for the nitrous oxide vote) on the next scan.
