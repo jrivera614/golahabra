@@ -88,3 +88,7 @@ Format:
 ## 2026-11-12 · daily city scan
 - Nothing new on the city site (first scan; checked Nov 9 to 12). News Flash still shows only the Dec 2025 library closure; latest press release is 10/20 (OTS grant). Destiny Agenda: Nov 16 council agenda not posted yet; Planning Commission 11/9 and Housing Authority 11/16 cancelled (routine). Homepage lists council Mon 11/16, Planning Commission Mon 11/23, City Hall closed Wed 11/25 to Thu 11/26 for the holiday.
 - Leads / follow-ups: check for the Nov 16 council agenda (and Nov 2 minutes for the nitrous oxide vote) on the next scan.
+
+## 2026-11-13 · daily city scan
+- Nothing new on the city site (checked since 11/12). Homepage still shows only the library closure notice and the same upcoming items (council Mon 11/16, Planning Commission Mon 11/23, City Hall closed 11/25 to 11/26). Agenda Center: Nov 16 council agenda and Nov 2 minutes not posted yet. Destiny Agenda list and CivicAlerts page could not be fetched this run (fetch permission timed out); search only surfaced old Destiny agendas.
+- Leads / follow-ups: Nov 16 agenda should post any day; check Destiny directly next scan. Nov 2 minutes still needed for the nitrous oxide vote.
