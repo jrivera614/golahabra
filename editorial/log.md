@@ -92,3 +92,8 @@ Format:
 ## 2026-11-13 · daily city scan
 - Nothing new on the city site (checked since 11/12). Homepage still shows only the library closure notice and the same upcoming items (council Mon 11/16, Planning Commission Mon 11/23, City Hall closed 11/25 to 11/26). Agenda Center: Nov 16 council agenda and Nov 2 minutes not posted yet. Destiny Agenda list and CivicAlerts page could not be fetched this run (fetch permission timed out); search only surfaced old Destiny agendas.
 - Leads / follow-ups: Nov 16 agenda should post any day; check Destiny directly next scan. Nov 2 minutes still needed for the nitrous oxide vote.
+
+## 2026-11-14 · La Habra quarterfinal score (Justin request)
+- Published: La Habra 41, Cathedral 35 (CIF-SS D4 quarterfinal, Fri 11/13). Highlanders now 7-5. Per Justin (game-ending 49-yard QB scramble as time expired), confirmed by the CIF-SS quarterfinal scores roundup on Yahoo Sports and Jingletree.
+- Skipped: Whittier Christian at Whittier (D13 quarterfinal). The same roundup says Whittier 63, WCHS 27, but Yahoo and Jingletree appear to run one syndicated article, and MaxPreps and the CIF-SS pages failed to load. Left as upcoming until confirmed or Justin approves.
+- Leads / follow-ups: La Habra's D4 semifinal opponent, site and time (Fri 11/20) not posted yet. Possible recap draft on the walk-off finish if Justin wants one (player names only from an official school or league source).

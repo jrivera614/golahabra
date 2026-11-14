@@ -132,10 +132,11 @@
     "sport": "football",
     "opponent": "Cathedral",
     "date": "2026-11-13",
-    "time": "7:00 pm",
     "home": true,
-    "status": "upcoming",
-    "label": "CIF-SS playoffs, Quarterfinals"
+    "status": "final",
+    "label": "CIF-SS playoffs, Quarterfinals",
+    "us": 41,
+    "them": 35
   },
   {
     "id": "sonora-2026-08-21",
