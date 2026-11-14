@@ -139,6 +139,16 @@
     "them": 35
   },
   {
+    "id": "lhhs-football-2026-11-20",
+    "school": "lhhs",
+    "sport": "football",
+    "opponent": "Quartz Hill",
+    "date": "2026-11-20",
+    "home": false,
+    "status": "upcoming",
+    "label": "CIF-SS playoffs, Semifinals"
+  },
+  {
     "id": "sonora-2026-08-21",
     "school": "sonora",
     "sport": "football",
@@ -399,8 +409,10 @@
     "opponent": "Whittier",
     "date": "2026-11-13",
     "home": false,
-    "status": "upcoming",
-    "label": "CIF-SS playoffs, Quarterfinals"
+    "status": "final",
+    "label": "CIF-SS playoffs, Quarterfinals",
+    "us": 27,
+    "them": 63
   },
   {
     "id": "lhhs-girls-soccer-2026-12-03",
