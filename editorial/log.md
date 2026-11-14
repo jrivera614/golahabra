@@ -96,4 +96,4 @@ Format:
 ## 2026-11-14 · La Habra quarterfinal score (Justin request)
 - Published: La Habra 41, Cathedral 35 (CIF-SS D4 quarterfinal, Fri 11/13). Highlanders now 7-5. Per Justin (game-ending 49-yard QB scramble as time expired), confirmed by the CIF-SS quarterfinal scores roundup on Yahoo Sports and Jingletree.
 - Skipped: Whittier Christian at Whittier (D13 quarterfinal). The same roundup says Whittier 63, WCHS 27, but Yahoo and Jingletree appear to run one syndicated article, and MaxPreps and the CIF-SS pages failed to load. Left as upcoming until confirmed or Justin approves.
-- Leads / follow-ups: La Habra's D4 semifinal opponent, site and time (Fri 11/20) not posted yet. Possible recap draft on the walk-off finish if Justin wants one (player names only from an official school or league source).
+- Leads / follow-ups: La Habra's D4 semifinal opponent, site and time not posted yet. Possible recap draft on the walk-off finish if Justin wants one (player names only from an official school or league source).
