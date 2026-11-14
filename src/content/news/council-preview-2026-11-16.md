@@ -4,7 +4,7 @@ dek: "Monday's meeting also includes about $1.2 million in sidewalk and street s
 date: 2026-11-14
 category: City Hall
 author: Go La Habra
-draft: true
+draft: false
 ---
 
 The La Habra City Council meets Monday, Nov. 16, at 6:30 pm in the Council Chamber at City Hall, 100 E. La Habra Blvd. Here's what's on the agenda that could affect you.

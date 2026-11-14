@@ -115,3 +115,7 @@ Format:
 - Published: from the 11/16 Mayor's Community Calendar: Thanksgiving Senior Dance (Sun 11/22, Community Center) and city Capistrano Lights trip (Fri 12/18). Tamale Festival hours added (10 am to 9 pm); calendar says it includes the tree lighting and fireworks.
 - Skipped: Breakfast with Santa (Sat 12/12) and Cookies with Mrs. Claus (Sat 12/19), FCMLH events with no location on the calendar. Holiday Wishes donation drive (ongoing, not a dated event). Routine consent items (claims, warrants, police side letter, mower purchase). News Flash and homepage unchanged (only the library closure notice).
 - Leads / follow-ups: Nov 2 minutes are not on the 11/16 agenda, so the nitrous oxide vote is still unconfirmed. Tuesday council recap run should cover 11/16 outcomes. Confirm the museum events' location to add them.
+
+## 2026-11-14 · Justin approval
+- Published: "Council set to consider new watering limits for decorative grass" (Justin replied "Do it", no edits).
+- Leads / follow-ups: Tuesday council recap run should cover the 11/16 outcomes.
