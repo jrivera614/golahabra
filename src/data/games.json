@@ -792,5 +792,124 @@
     "time": "5:00 pm",
     "home": true,
     "status": "upcoming"
+  },
+  {
+    "id": "lhhs-boys-basketball-2026-11-23",
+    "school": "lhhs",
+    "sport": "boys-basketball",
+    "opponent": "Corona del Mar",
+    "date": "2026-11-23",
+    "home": true,
+    "status": "upcoming"
+  },
+  {
+    "id": "lhhs-boys-basketball-2026-11-24",
+    "school": "lhhs",
+    "sport": "boys-basketball",
+    "opponent": "Cerritos",
+    "date": "2026-11-24",
+    "time": "6:00 pm",
+    "home": true,
+    "status": "upcoming"
+  },
+  {
+    "id": "wchs-boys-soccer-2026-11-16",
+    "school": "wchs",
+    "sport": "boys-soccer",
+    "opponent": "Vista Meridian",
+    "date": "2026-11-16",
+    "time": "3:15 pm",
+    "home": true,
+    "status": "upcoming"
+  },
+  {
+    "id": "wchs-boys-soccer-2026-11-18",
+    "school": "wchs",
+    "sport": "boys-soccer",
+    "opponent": "Mark Keppel",
+    "date": "2026-11-18",
+    "time": "5:00 pm",
+    "home": false,
+    "status": "upcoming"
+  },
+  {
+    "id": "wchs-boys-soccer-2026-11-19",
+    "school": "wchs",
+    "sport": "boys-soccer",
+    "opponent": "Whitney",
+    "date": "2026-11-19",
+    "time": "3:30 pm",
+    "home": false,
+    "status": "upcoming"
+  },
+  {
+    "id": "wchs-boys-soccer-2026-11-20",
+    "school": "wchs",
+    "sport": "boys-soccer",
+    "opponent": "CVCHS",
+    "date": "2026-11-20",
+    "time": "2:15 pm",
+    "home": false,
+    "status": "upcoming"
+  },
+  {
+    "id": "wchs-boys-soccer-2026-12-01",
+    "school": "wchs",
+    "sport": "boys-soccer",
+    "opponent": "Whittier",
+    "date": "2026-12-01",
+    "time": "2:00 pm",
+    "home": true,
+    "status": "upcoming"
+  },
+  {
+    "id": "wchs-boys-soccer-2026-12-03",
+    "school": "wchs",
+    "sport": "boys-soccer",
+    "opponent": "Trinity Classical Academy",
+    "date": "2026-12-03",
+    "time": "3:15 pm",
+    "home": false,
+    "status": "upcoming"
+  },
+  {
+    "id": "wchs-boys-soccer-2026-12-07",
+    "school": "wchs",
+    "sport": "boys-soccer",
+    "opponent": "Workman",
+    "date": "2026-12-07",
+    "time": "3:30 pm",
+    "home": false,
+    "status": "upcoming"
+  },
+  {
+    "id": "wchs-boys-soccer-2026-12-11",
+    "school": "wchs",
+    "sport": "boys-soccer",
+    "opponent": "Oxford Academy",
+    "date": "2026-12-11",
+    "time": "3:15 pm",
+    "home": true,
+    "status": "upcoming"
+  },
+  {
+    "id": "wchs-girls-soccer-2026-12-03",
+    "school": "wchs",
+    "sport": "girls-soccer",
+    "opponent": "Rancho Alamitos",
+    "date": "2026-12-03",
+    "time": "3:00 pm",
+    "home": true,
+    "status": "upcoming"
+  },
+  {
+    "id": "wchs-girls-soccer-2026-12-09",
+    "school": "wchs",
+    "sport": "girls-soccer",
+    "opponent": "Rubidoux",
+    "date": "2026-12-09",
+    "time": "3:15 pm",
+    "home": true,
+    "status": "upcoming"
   }
 ]

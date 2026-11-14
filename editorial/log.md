@@ -102,3 +102,10 @@ Format:
 - Published: Whittier 63, Whittier Christian 27 (CIF-SS D13 quarterfinal, Fri 11/13), per Justin plus the Yahoo/Jingletree roundup. Heralds' season ends at 8-4.
 - Published: La Habra at Quartz Hill, Fri 11/20 (CIF-SS D4 semifinals), games and events. Site and date per Justin; kickoff time not posted, left blank.
 - Leads / follow-ups: add the 11/20 kickoff time once posted; post the semifinal score.
+
+## 2026-11-14 · Saturday scores
+- Scores: none to post. No games listed as upcoming on or before today (both 11/13 quarterfinals were posted earlier today).
+- Published: 12 winter games from MaxPreps 2026-27 schedule pages (checked the pages say 26-27). WCHS boys soccer (8 games, 11/16 to 12/11; "CVCHS" on 11/20 is MaxPreps' name for the opponent), WCHS girls soccer (12/3 Rancho Alamitos, 12/9 Rubidoux), La Habra boys basketball (11/23 Corona del Mar, time TBA; 11/24 Cerritos 6 pm).
+- Skipped: La Habra boys basketball tournament games (Rumble on the Hill 11/16 to 11/21, Gary Raya Classic 11/30 to 12/5, Landry Fields Showcase 12/11 to 12/12), home/away unclear. The MaxPreps team page summary also showed 11/16 at Sunny Hills and 11/17 vs Kennedy, which conflicts with the full schedule (tournament TBA), so left out.
+- Skipped: schedules still not posted for 26-27: La Habra girls basketball (MaxPreps page empty), Sonora girls basketball and La Habra boys soccer (MaxPreps pages show no season label; La Habra boys soccer dates match last season's weekdays). La Habra semifinal kickoff time (Fri 11/20 at Quartz Hill) not posted yet.
+- Leads / follow-ups: add La Habra boys basketball games after 11/24 (12/18 at La Serna 6:30 pm, 12/22 vs Troy 6 pm) on a later run. Post La Habra semifinal score 11/20.
