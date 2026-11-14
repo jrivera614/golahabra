@@ -70,11 +70,28 @@
     "source": "https://business.lahabrachamber.com/events/details/connect-up-at-chamber-office-15998?calendarMonth=2026-11-01"
   },
   {
+    "id": "thanksgiving-senior-dance-2026",
+    "name": "Thanksgiving Senior Dance",
+    "date": "2026-11-22",
+    "time": "2:00 pm to 4:00 pm",
+    "place": "La Habra Community Center",
+    "source": "https://public.destinyhosted.com/lahabdocs/2026/CC/20261116_1133/3337_Mayor%27s_Community_Calendar_11.16.2026-FINAL%20DRAFT.pdf"
+  },
+  {
     "id": "tamale-festival-2026",
     "name": "La Habra Tamale Festival",
     "date": "2026-12-05",
     "place": "Euclid St. between La Habra Blvd. and Bridenbecker Ave., plus City Hall, Portola Park and Brio Park",
     "link": "https://lhcm.org/677/Tamale-Festival",
-    "source": "https://lhcm.org/677/Tamale-Festival"
+    "source": "https://lhcm.org/677/Tamale-Festival",
+    "time": "10:00 am to 9:00 pm"
+  },
+  {
+    "id": "capistrano-lights-trip-2026",
+    "name": "City trip: Capistrano Lights, Mission in Light",
+    "date": "2026-12-18",
+    "time": "Departs 2:30 pm, returns 7:30 pm",
+    "place": "Departs from La Bonita Park, 1440 W. Whittier Blvd.",
+    "source": "https://public.destinyhosted.com/lahabdocs/2026/CC/20261116_1133/3337_Mayor%27s_Community_Calendar_11.16.2026-FINAL%20DRAFT.pdf"
   }
 ]
