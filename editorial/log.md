@@ -119,3 +119,7 @@ Format:
 ## 2026-11-14 · Justin approval
 - Published: "Council set to consider new watering limits for decorative grass" (Justin replied "Do it", no edits).
 - Leads / follow-ups: Tuesday council recap run should cover the 11/16 outcomes.
+
+## 2026-11-15 · daily city scan
+- Nothing new on the city site (checked since 11/14). Homepage and News Flash unchanged (only the library closure notice; upcoming: council Mon 11/16, Planning Commission Mon 11/23, City Hall closed 11/25 to 11/26). Winter Rain page unchanged. Destiny Agenda list could not be fetched (permission timed out); search surfaced no new agendas. Planning Commission 11/23 agenda not seen yet.
+- Leads / follow-ups: check Destiny for the 11/23 Planning Commission agenda and the Dec 7 council agenda (with Nov 2 and Nov 16 minutes) on the next scans.
