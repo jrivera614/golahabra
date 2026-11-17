@@ -134,3 +134,7 @@ Format:
 - Skipped: official votes. Nov 2 minutes still not posted (Agenda Center shows none for 11/2 or 11/16), so the nitrous oxide draft gets no "Official votes" section yet.
 - Note: Destiny Agenda served stale pages from the cloud this run (seq=1132 and item seq=3324 came back as Aug 18, 2025 content). Used the lahabraca.gov Agenda Center copy of the 11/16 agenda instead, which matched the preview.
 - Leads / follow-ups: Nov 2 and Nov 16 minutes expected with the Dec 7 agenda; add votes to the nitrous oxide draft and this recap then. Turf ordinance and Zone Change 26-0003 second readings likely on a December agenda.
+
+## 2026-11-17 · daily city scan
+- Nothing new on the city site (checked since 11/16). Homepage and News Flash unchanged (only the library closure notice; upcoming: Planning Commission 11/23, which the Agenda Center shows as cancelled, and City Hall closed 11/25 to 11/26). Destiny Agenda and Agenda Center: no new agendas or minutes since the 11/16 council agenda; Nov 2 and Nov 16 minutes still not posted.
+- Leads / follow-ups: watch for the Dec 7 council agenda (with Nov 2 and Nov 16 minutes) to add votes to the nitrous oxide draft and the 11/16 recap draft.
