@@ -127,3 +127,10 @@ Format:
 ## 2026-11-16 · daily city scan
 - Nothing new on the city site (checked since 11/15). Homepage and News Flash unchanged (only the library closure notice; upcoming: council Mon 11/16, Planning Commission Mon 11/23, City Hall closed 11/25 to 11/26). Agenda Center: Planning Commission Mon 11/23 cancelled (notice posted 11/16, routine). Winter Rain page unchanged. Destiny Agenda list could not be fetched (permission timed out); search surfaced no new agendas.
 - Leads / follow-ups: Tuesday council recap run covers tonight's 11/16 meeting. Watch for the Dec 7 council agenda (with Nov 2 and Nov 16 minutes) on later scans.
+
+## 2026-11-17 · weekly council check
+- Drafted: "What the La Habra council took up Nov. 16: watering limits for decorative grass" (City Hall, draft: true, council-2026-11-16.md). Written as "set to consider" since no official outcomes are posted (no minutes, press release or coverage found).
+- Published: no new events. The Agenda Center copy of the 11/16 Mayor's Community Calendar has no entries; the two events from it were already added 11/14.
+- Skipped: official votes. Nov 2 minutes still not posted (Agenda Center shows none for 11/2 or 11/16), so the nitrous oxide draft gets no "Official votes" section yet.
+- Note: Destiny Agenda served stale pages from the cloud this run (seq=1132 and item seq=3324 came back as Aug 18, 2025 content). Used the lahabraca.gov Agenda Center copy of the 11/16 agenda instead, which matched the preview.
+- Leads / follow-ups: Nov 2 and Nov 16 minutes expected with the Dec 7 agenda; add votes to the nitrous oxide draft and this recap then. Turf ordinance and Zone Change 26-0003 second readings likely on a December agenda.
