@@ -146,3 +146,7 @@ Format:
 - Skipped: Mercado González opening date (Shelby Report says Thu 10/22 ceremony, Food & Beverage Magazine says 10/27 ribbon cutting), so the draft says "late October". Left out the July Planning Commission approval (only found on a realtor blog).
 - Tips inbox: no mail to hello@golahabra.com since 11/11.
 - Leads / follow-ups: La Guapa Taqueria Bar (1351 S. Beach Blvd., Suite H, old Ricardo's El Ranchito spot) was aiming for July 2026; no sign it's open yet. Restaurant lead for Justin and Mariana: the new puestos at Mercado González. Post the La Habra semifinal score 11/20 and add the D4 final if they win. Nov 2 and Nov 16 minutes still pending for the nitrous oxide and 11/16 recap drafts.
+
+## 2026-11-18 · daily city scan
+- Nothing new on the city site (checked since 11/17). Homepage and News Flash unchanged (only the library closure notice; upcoming: Planning Commission 11/23, cancelled per Agenda Center, and City Hall closed 11/25 to 11/26). Agenda Center: no new agendas or minutes since the 11/23 Planning Commission cancellation notice; Nov 2 and Nov 16 minutes still not posted. Destiny Agenda list could not be fetched (permission timed out); search surfaced no new agendas.
+- Leads / follow-ups: watch for the Dec 7 council agenda (with Nov 2 and Nov 16 minutes) to add votes to the nitrous oxide draft and the 11/16 recap draft.
