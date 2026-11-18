@@ -138,3 +138,11 @@ Format:
 ## 2026-11-17 · daily city scan
 - Nothing new on the city site (checked since 11/16). Homepage and News Flash unchanged (only the library closure notice; upcoming: Planning Commission 11/23, which the Agenda Center shows as cancelled, and City Hall closed 11/25 to 11/26). Destiny Agenda and Agenda Center: no new agendas or minutes since the 11/16 council agenda; Nov 2 and Nov 16 minutes still not posted.
 - Leads / follow-ups: watch for the Dec 7 council agenda (with Nov 2 and Nov 16 minutes) to add votes to the nitrous oxide draft and the 11/16 recap draft.
+
+## 2026-11-18 · weekly editor run
+- Published: no new events. Nothing new to confirm for the next 6 weeks. The latest Mayor's Community Calendar (11/16) was already processed 11/14. Chamber site has no listings through December (its calendar pages wouldn't load from the cloud). City tree lighting page still shows 2025 only; the Tamale Festival entry already notes the tree lighting.
+- Drafted: "La Habra is two wins from a CIF-SS title. Next up: Quartz Hill" (Sports) and "The Northgate on Whittier Blvd. is now a Mercado González food hall" (Now open). Both draft: true, awaiting Justin.
+- Flag: sources disagree on the semifinal host. OC Sports Zone (11/16) and the LA Times schedule via Yahoo (11/15) say La Habra at Quartz Hill, matching what Justin told us. A Yahoo/SI matchups list (11/15) says Quartz Hill at La Habra. Kept "at Quartz Hill" in the draft and games/events. Kickoff time still not posted.
+- Skipped: Mercado González opening date (Shelby Report says Thu 10/22 ceremony, Food & Beverage Magazine says 10/27 ribbon cutting), so the draft says "late October". Left out the July Planning Commission approval (only found on a realtor blog).
+- Tips inbox: no mail to hello@golahabra.com since 11/11.
+- Leads / follow-ups: La Guapa Taqueria Bar (1351 S. Beach Blvd., Suite H, old Ricardo's El Ranchito spot) was aiming for July 2026; no sign it's open yet. Restaurant lead for Justin and Mariana: the new puestos at Mercado González. Post the La Habra semifinal score 11/20 and add the D4 final if they win. Nov 2 and Nov 16 minutes still pending for the nitrous oxide and 11/16 recap drafts.
