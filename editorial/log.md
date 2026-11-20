@@ -158,3 +158,8 @@ Format:
 ## 2026-11-20 · daily city scan
 - Nothing new on the city site (checked since 11/19). Homepage unchanged (only the library closure notice; upcoming: Planning Commission 11/23, cancelled per Destiny seq=1159, and City Hall closed 11/25 to 11/26). Destiny Agenda: nothing after the 11/23 cancellation; December view shows no agendas yet, and no Nov 2 or Nov 16 minutes. News Flash page could not be fetched (permission timed out); search surfaced nothing new.
 - Leads / follow-ups: watch for the Dec 7 council agenda (with Nov 2 and Nov 16 minutes) to add votes to the nitrous oxide draft and the 11/16 recap draft.
+
+## 2026-11-20 · Justin approval
+- Published: "La Habra is two wins from a CIF-SS title. Next up: Quartz Hill" and "The Northgate on Whittier Blvd. is now a Mercado González food hall" (Justin replied "publish").
+- Published: per Justin, Quartz Hill hosts the semifinal and kickoff is 7 pm. Replaced the "kickoff not posted" paragraph in the preview with "Kickoff is at 7 pm." and added 7:00 pm to the game and the event. Host conflict settled (at Quartz Hill, as already listed).
+- Leads / follow-ups: post tonight's La Habra at Quartz Hill score once confirmed; add the D4 final if La Habra wins.

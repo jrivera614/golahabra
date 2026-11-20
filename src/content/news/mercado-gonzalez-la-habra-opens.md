@@ -4,7 +4,7 @@ dek: "The La Habra store reopened in late October with food stalls, a bar and a 
 date: 2026-11-18
 category: Now open
 author: Go La Habra
-draft: true
+draft: false
 ---
 
 If you shop at the Northgate González Market at 1305 W. Whittier Blvd., it looks different now. The store has been turned into a Mercado González, the company's food hall format, and it opened with a ceremony on the store's patio in late October.

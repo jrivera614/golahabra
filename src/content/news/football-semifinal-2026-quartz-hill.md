@@ -4,12 +4,12 @@ dek: "The Highlanders play an 11-1 Quartz Hill team in the Division 4 semifinals
 date: 2026-11-18
 category: Sports
 author: Go La Habra
-draft: true
+draft: false
 ---
 
 La Habra's football team is one of four left in CIF Southern Section Division 4. The Highlanders play Quartz Hill in the semifinals this Friday, Nov. 20, at Quartz Hill High in the Antelope Valley.
 
-Kickoff time hasn't been posted yet. CIF-SS playoff games usually start at 7 pm unless the schools pick a different time, so check before you make the drive.
+Kickoff is at 7 pm.
 
 **How La Habra got here**
 
