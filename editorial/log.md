@@ -171,3 +171,7 @@ Format:
 - Skipped: WCHS boys soccer at Mark Keppel (11/18) and at Whitney (11/19). Neither opponent's 26-27 MaxPreps page lists the game and a recap puts WC at 2-0, so likely not played, but no official postponement or cancellation notice. Left as upcoming. La Habra boys basketball tournaments (Gary Raya Classic 11/30 to 12/5, Landry Fields Showcase 12/11 to 12/12, Challenge for CHOC 12/19), home/away unclear. Single-source results not added (La Habra girls basketball 11/16 to 11/19, WCHS girls basketball vs San Bernardino 11/20).
 - Still not posted for 26-27: Sonora girls basketball, La Habra boys soccer (MaxPreps pages failed or showed old seasons).
 - Leads / follow-ups: check whether WCHS boys soccer 11/18 and 11/19 were rescheduled. La Habra boys basketball has only 11/23, 11/24 and 12/18 listed outside tournaments.
+
+## 2026-11-21 · daily city scan
+- Nothing new on the city site (checked since 11/20). Homepage and News Flash unchanged (only the Dec 2025 library closure notice; upcoming: Planning Commission 11/23, cancelled per Destiny seq=1159, and City Hall closed 11/25 to 11/26). Destiny Agenda list could not be fetched (robots.txt refusal); search surfaced no new agendas.
+- Leads / follow-ups: watch for the Dec 7 council agenda (with Nov 2 and Nov 16 minutes) to add votes to the nitrous oxide draft and the 11/16 recap draft.
