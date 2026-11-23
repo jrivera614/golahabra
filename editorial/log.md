@@ -179,3 +179,7 @@ Format:
 ## 2026-11-22 · daily city scan
 - Nothing new found, but the scan was incomplete: homepage, News Flash, Destiny Agenda list and Agenda Center all failed to load (fetch permission timed out). Web search surfaced only older agendas and minutes, nothing posted since 11/21.
 - Leads / follow-ups: next scan should recheck everything since 11/21. Watch for the Dec 7 council agenda (with Nov 2 and Nov 16 minutes) to add votes to the nitrous oxide draft and the 11/16 recap draft.
+
+## 2026-11-23 · daily city scan
+- Nothing new on the city site (rechecked since 11/21, covering the incomplete 11/22 scan). Homepage and News Flash unchanged (only the Dec 2025 library closure notice; upcoming: Planning Commission 11/23, cancelled per Destiny seq=1159, and City Hall closed 11/25 to 11/26). Agenda Center: only new posting is a Planning Commission Jan 11, 2027 cancellation notice (posted 11/18, routine); no Dec 7 council agenda and no Nov 2 or Nov 16 minutes yet. Destiny Agenda list refused fetching (robots.txt); search surfaced nothing new.
+- Leads / follow-ups: watch for the Dec 7 council agenda (with Nov 2 and Nov 16 minutes) to add votes to the nitrous oxide draft and the 11/16 recap draft.
