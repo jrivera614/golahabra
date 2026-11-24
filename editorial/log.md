@@ -183,3 +183,9 @@ Format:
 ## 2026-11-23 · daily city scan
 - Nothing new on the city site (rechecked since 11/21, covering the incomplete 11/22 scan). Homepage and News Flash unchanged (only the Dec 2025 library closure notice; upcoming: Planning Commission 11/23, cancelled per Destiny seq=1159, and City Hall closed 11/25 to 11/26). Agenda Center: only new posting is a Planning Commission Jan 11, 2027 cancellation notice (posted 11/18, routine); no Dec 7 council agenda and no Nov 2 or Nov 16 minutes yet. Destiny Agenda list refused fetching (robots.txt); search surfaced nothing new.
 - Leads / follow-ups: watch for the Dec 7 council agenda (with Nov 2 and Nov 16 minutes) to add votes to the nitrous oxide draft and the 11/16 recap draft.
+
+## 2026-11-24 · weekly council check
+- Published: nothing.
+- Drafted: nothing. No council meeting Mon 11/23 (4th Monday; no regular or special meeting found). Last meeting Nov 16, next expected Mon 12/7.
+- Skipped: official votes. Nov 2 and Nov 16 minutes not posted yet (search shows none newer than earlier 2026 meetings), so the nitrous oxide draft and the 11/16 recap draft get no "Official votes" section this run.
+- Leads / follow-ups: Nov 2 and Nov 16 minutes expected with the Dec 7 agenda; add votes then. Dec 7 recap should pull its Mayor's Community Calendar.
