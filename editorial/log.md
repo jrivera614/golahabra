@@ -189,3 +189,7 @@ Format:
 - Drafted: nothing. No council meeting Mon 11/23 (4th Monday; no regular or special meeting found). Last meeting Nov 16, next expected Mon 12/7.
 - Skipped: official votes. Nov 2 and Nov 16 minutes not posted yet (search shows none newer than earlier 2026 meetings), so the nitrous oxide draft and the 11/16 recap draft get no "Official votes" section this run.
 - Leads / follow-ups: Nov 2 and Nov 16 minutes expected with the Dec 7 agenda; add votes then. Dec 7 recap should pull its Mayor's Community Calendar.
+
+## 2026-11-24 · daily city scan
+- Nothing new found, but the scan was incomplete: homepage, News Flash, Agenda Center and Destiny Agenda list all failed to load (fetch permission timed out). Web search surfaced only older agendas and calendars, nothing posted since 11/23.
+- Leads / follow-ups: next scan should recheck everything since 11/23. Watch for the Dec 7 council agenda (with Nov 2 and Nov 16 minutes) to add votes to the nitrous oxide draft and the 11/16 recap draft.
