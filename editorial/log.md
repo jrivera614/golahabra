@@ -200,3 +200,7 @@ Format:
 - Skipped: tree lighting and fireworks times, tamale contest details and the entertainment lineup (only in images on the festival site, not readable). City Hall address left out of the draft (City footer says 110 E. La Habra Blvd., festival pages use 101 W. La Habra Blvd. for the Kid Zone).
 - Tips inbox: no mail to hello@golahabra.com since 11/18.
 - Leads / follow-ups: add tree lighting and fireworks times to the Tamale draft or calendar if posted. Check for a 2026 Shop La Habra Holiday Giveaway from the Chamber. Dec 7 council agenda and Nov 2 / Nov 16 minutes still pending for the nitrous oxide and 11/16 recap drafts. La Guapa Taqueria Bar opening still unconfirmed.
+
+## 2026-11-25 · daily city scan
+- Nothing new found, but the scan was incomplete again: homepage, News Flash, Destiny Agenda list and Agenda Center all failed to load (fetch permission timed out, same as 11/22 and 11/24). Web search surfaced only older agendas and minutes; no Dec 7 council agenda and no Nov 2 or Nov 16 minutes.
+- Leads / follow-ups: search turned up a state CEQA filing for La Habra "Various Amendments to Title 18 (Zoning) to improve internal consistency and streamline approval processes" (ceqanet.lci.ca.gov/2026110527, a November 2026 number). Couldn't open it; check for a matching Planning Commission or council hearing. Next scan should recheck everything since 11/23. Dec 7 agenda (with Nov 2 and Nov 16 minutes) still pending for the nitrous oxide and 11/16 recap drafts.
