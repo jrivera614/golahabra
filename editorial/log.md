@@ -193,3 +193,10 @@ Format:
 ## 2026-11-24 · daily city scan
 - Nothing new found, but the scan was incomplete: homepage, News Flash, Agenda Center and Destiny Agenda list all failed to load (fetch permission timed out). Web search surfaced only older agendas and calendars, nothing posted since 11/23.
 - Leads / follow-ups: next scan should recheck everything since 11/23. Watch for the Dec 7 council agenda (with Nov 2 and Nov 16 minutes) to add votes to the nitrous oxide draft and the 11/16 recap draft.
+
+## 2026-11-25 · weekly editor run
+- Published: corrected Tamale Festival (Sat 12/5) hours to 10 am to 8 pm (was 10 am to 9 pm from the 11/16 Mayor's Community Calendar). The City's Tamale Festival page and the festival's own site (lahabratamalefestival.com) both say 10 am to 8 pm. Switched the entry's source to the City page and link to the festival site. No new events: nothing new and confirmable in the next 6 weeks. Dec 7 council agenda (and its Mayor's Community Calendar) not posted yet. City tree lighting page still shows 2025; the festival site lists the tree lighting as part of 12/5 with no time. Chamber pages found were past events (Feb and June 2026); lahabrachamber.com homepage wouldn't load. Shop La Habra Holiday Giveaway page found is the 2025 edition, so not added.
+- Drafted: "The Tamale Festival is back Saturday, Dec. 5" (Community, draft: true, tamale-festival-2026-preview.md). Hours, stages, Kids Zone, wristband prices and free shuttle from the City and festival pages.
+- Skipped: tree lighting and fireworks times, tamale contest details and the entertainment lineup (only in images on the festival site, not readable). City Hall address left out of the draft (City footer says 110 E. La Habra Blvd., festival pages use 101 W. La Habra Blvd. for the Kid Zone).
+- Tips inbox: no mail to hello@golahabra.com since 11/18.
+- Leads / follow-ups: add tree lighting and fireworks times to the Tamale draft or calendar if posted. Check for a 2026 Shop La Habra Holiday Giveaway from the Chamber. Dec 7 council agenda and Nov 2 / Nov 16 minutes still pending for the nitrous oxide and 11/16 recap drafts. La Guapa Taqueria Bar opening still unconfirmed.
