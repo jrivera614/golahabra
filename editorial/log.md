@@ -206,3 +206,7 @@ Format:
 - Skipped: state CEQA Notice of Exemption for Zone Change 26-0003 (SCH 2026110527, filed 11/18), the Title 18 zoning cleanup the council took up 11/16. Already covered in the 11/16 preview and recap draft.
 - Note: fetch timeouts on 11/22, 11/24 and today's first pass happened when Justin's computer was off and nobody answered the fetch approval.
 - Leads / follow-ups: Dec 7 agenda (with Nov 2 and Nov 16 minutes) still pending for the nitrous oxide and 11/16 recap drafts.
+
+## 2026-11-26 · daily city scan
+- Nothing new on the city site (checked since 11/25). Homepage and News Flash unchanged (only the Dec 2025 library closure; upcoming: City Hall closed 11/25 to 11/26). Agenda Center: newest council agenda is still Nov 16; no Dec 7 agenda, no Nov 2 or Nov 16 minutes. Destiny Agenda list refused fetching (robots.txt); search surfaced only older agendas.
+- Leads / follow-ups: Dec 7 agenda (with Nov 2 and Nov 16 minutes) still pending for the nitrous oxide and 11/16 recap drafts. It should post around Thu 12/3.
