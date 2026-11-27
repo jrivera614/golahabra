@@ -210,3 +210,7 @@ Format:
 ## 2026-11-26 · daily city scan
 - Nothing new on the city site (checked since 11/25). Homepage and News Flash unchanged (only the Dec 2025 library closure; upcoming: City Hall closed 11/25 to 11/26). Agenda Center: newest council agenda is still Nov 16; no Dec 7 agenda, no Nov 2 or Nov 16 minutes. Destiny Agenda list refused fetching (robots.txt); search surfaced only older agendas.
 - Leads / follow-ups: Dec 7 agenda (with Nov 2 and Nov 16 minutes) still pending for the nitrous oxide and 11/16 recap drafts. It should post around Thu 12/3.
+
+## 2026-11-27 · daily city scan
+- Nothing new found, but the scan was incomplete: homepage, News Flash, Agenda Center and Destiny Agenda list all failed to load (fetch permission timed out). Web search surfaced only older agendas and minutes, nothing posted since 11/26.
+- Leads / follow-ups: next scan should recheck everything since 11/26. Dec 7 agenda (with Nov 2 and Nov 16 minutes) still pending for the nitrous oxide and 11/16 recap drafts; it should post around Thu 12/3.
