@@ -214,3 +214,11 @@ Format:
 ## 2026-11-27 · daily city scan
 - Nothing new found, but the scan was incomplete: homepage, News Flash, Agenda Center and Destiny Agenda list all failed to load (fetch permission timed out). Web search surfaced only older agendas and minutes, nothing posted since 11/26.
 - Leads / follow-ups: next scan should recheck everything since 11/26. Dec 7 agenda (with Nov 2 and Nov 16 minutes) still pending for the nitrous oxide and 11/16 recap drafts; it should post around Thu 12/3.
+
+## 2026-11-28 · Saturday scores
+- Published: La Habra boys basketball 80, Cerritos 62 (Tue 11/24, home). Confirmed by MaxPreps La Habra 26-27 team page (4-3 overall, updated 11/27) and the Cerritos 26-27 page with its recap ("11/24 Highlights @ La Habra"). Removed the 6 pm time.
+- Skipped: La Habra boys basketball vs Corona del Mar (Mon 11/23). La Habra's MaxPreps page shows CdM 69, La Habra 42, but as a Feast Week tournament game at Marina HS, not a La Habra home game as listed. CdM's MaxPreps page is stale and the MaxPreps recaps would not load, so no second source. Left as upcoming; if confirmed, also fix `home` (neutral site).
+- Skipped: WCHS boys soccer at Mark Keppel (11/18) and at Whitney (11/19). WC's 26-27 MaxPreps page (2-0, updated 11/21) doesn't list either game, but there's no official postponement or cancellation notice. Left as upcoming again.
+- Schedules: none added. All MaxPreps schedule pages and most team pages failed to load (fetch permission not answered in time). Still need: Sonora girls basketball and La Habra boys soccer (not posted), and next games for Sonora boys soccer (ends 12/7), WCHS boys soccer (ends 12/11) and WCHS girls soccer (ends 12/9).
+- Not added: La Habra boys basketball 12/1 vs Capistrano Valley (neutral, tournament) and 12/2 vs Woodbridge (likely Gary Raya Classic), home/away unclear. La Habra's other November results (Rumble on the Hill, Sunny Hills tournament) are tournament games not in games.json.
+- Leads / follow-ups: confirm CdM 11/23 score and site. Retry schedule pages when fetch approvals can be answered.

@@ -813,9 +813,10 @@
     "sport": "boys-basketball",
     "opponent": "Cerritos",
     "date": "2026-11-24",
-    "time": "6:00 pm",
     "home": true,
-    "status": "upcoming"
+    "status": "final",
+    "us": 80,
+    "them": 62
   },
   {
     "id": "wchs-boys-soccer-2026-11-16",
