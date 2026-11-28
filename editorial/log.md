@@ -222,3 +222,7 @@ Format:
 - Schedules: none added. All MaxPreps schedule pages and most team pages failed to load (fetch permission not answered in time). Still need: Sonora girls basketball and La Habra boys soccer (not posted), and next games for Sonora boys soccer (ends 12/7), WCHS boys soccer (ends 12/11) and WCHS girls soccer (ends 12/9).
 - Not added: La Habra boys basketball 12/1 vs Capistrano Valley (neutral, tournament) and 12/2 vs Woodbridge (likely Gary Raya Classic), home/away unclear. La Habra's other November results (Rumble on the Hill, Sunny Hills tournament) are tournament games not in games.json.
 - Leads / follow-ups: confirm CdM 11/23 score and site. Retry schedule pages when fetch approvals can be answered.
+
+## 2026-11-28 · daily city scan
+- Nothing new found, but the scan was incomplete for the second day running: homepage, News Flash, Agenda Center and Destiny Agenda list all failed to load (fetch permission not answered in time). Web search surfaced only older agendas and minutes, nothing posted since 11/26.
+- Leads / follow-ups: next scan should recheck everything since 11/26. Dec 7 agenda (with Nov 2 and Nov 16 minutes) still pending for the nitrous oxide and 11/16 recap drafts; it should post around Thu 12/3.
